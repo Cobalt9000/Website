@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Mandalore;
+    src: url("./fonts/Mandalore-K77lD.otf");
+}
+
+
+@font-face {
+    font-family: OmegaFlight;
+    src: url("./fonts/OmegaFlight-BWjvx.otf");
+}
+
+body {
+    font-family: 'OmegaFlight';
+    background-color: rgba(0, 0, 0, 0.938);
+}
