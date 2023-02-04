@@ -23,9 +23,51 @@
     width: 150%;
 }
 
+
 .navele {
-    margin: 0 1rem;
+    margin: 0 0.5rem 0 0.5rem;
+    width: clamp(4rem, 8rem, 12rem);
+    text-align: center;
+    position: relative;
+    /* padding: 0 .5rem 0 .5rem; */
 }
+
+.navele:hover {
+    /* background-color: rgba(255, 255, 255, 0.792);  */
+    color: black;
+     transition: all 0.3s ;
+
+}
+
+.navele::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.974); 
+    color: black;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition-duration: 0.3s;
+}
+
+.navele:hover {
+    color: black;
+  }
+  .navele:hover:before {
+    transform: scaleX(1);
+  }
+
+/* .navelebg{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+} */
+
 
 .logo {
     height: 4rem;
@@ -37,4 +79,5 @@
     margin: 0 1rem;
     font-size: xx-large;
     font-weight: bold;
+    color: white;
 }
