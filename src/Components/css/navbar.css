@@ -1,15 +1,41 @@
+#root::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#root {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
 .navbar {
     display: flex;
     color: rgba(255, 255, 255, 0.603);
-    height: 92vh; 
-    margin: 1.5rem; 
-    border: 0.1px solid rgba(255, 255, 255, 0.2);
+    /* height: 92vh; */
+    border: 0.1px solid rgb(64, 64, 64);
+
+    background-color: rgb(16, 16, 16);
     border-radius: 20px;
     position: fixed;
     width: 97%;
 }
 
+#root {
+    margin: 1.5rem;
+    width: 97%;
+    background-color: rgb(16, 16, 16);
+    border: 0.1px solid rgb(64, 64, 64);
+    height: 95vh;
+    border-radius: 20px;
+    position: fixed;
+    overflow-y: scroll;
+}
+
 .topnav {
+    background-color: rgb(16, 16, 16);
     border: 0.1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px 20px 7px 7px;
     width: 100%;
@@ -40,11 +66,10 @@
 .navele:hover {
     /* background-color: rgba(255, 255, 255, 0.792);  */
     color: black;
-     transition: all 0.3s ;
-
+    transition: all 0.3s;
 }
 
-.navele::before{
+.navele::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -53,7 +78,7 @@
     right: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.974); 
+    background-color: rgba(255, 255, 255, 0.974);
     color: black;
     transform: scaleX(0);
     transform-origin: 0 50%;
@@ -62,10 +87,11 @@
 
 .navele:hover {
     color: black;
-  }
-  .navele:hover:before {
+}
+
+.navele:hover:before {
     transform: scaleX(1);
-  }
+}
 
 
 .logo {
@@ -82,13 +108,15 @@
 }
 
 @media only screen and (max-width: 1024px) {
+
     /* .body{
         overflow: hidden;
     } */
     .navitems {
         display: none;
     }
-    .navbar{
+
+    .navbar {
         height: 95vh;
         margin: 1rem;
         width: 96%;
@@ -96,23 +124,26 @@
 }
 
 @media only screen and (max-width: 640px) {
+
     /* .body{
         overflow: hidden;
     } */
     .navitems {
         display: none;
     }
-    .navbar{
+
+    .navbar {
         height: 95vh;
         margin: 1rem;
         width: 92%;
     }
+
     .logo {
         height: 3rem;
         display: flex;
         align-items: center;
     }
-    
+
     .logotext {
         margin: 0 1rem;
         font-size: x-large;
