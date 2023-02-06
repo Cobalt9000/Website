@@ -1,0 +1,33 @@
+#effect {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    touch-action: pan-up;
+    pointer-events: none;
+    z-index: -1;
+}
+
+#effect::before {
+    content: "";
+    position: absolute;
+    /* Hidden by default */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Black background with opacity */
+    z-index: 2;
+    /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer;
+    /* Add a pointer on hover */
+}
+
+.lcontent {
+    padding-top: 10rem;
+}

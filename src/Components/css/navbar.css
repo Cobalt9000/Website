@@ -1,21 +1,23 @@
 .navbar {
     display: flex;
-    color: rgba(255, 255, 255, 0.603);
+    color: rgb(255, 255, 255);
     /* height: 92vh; */
     border: 0.1px solid rgb(64, 64, 64);
-    background-color: rgb(16, 16, 16);
+    background-color: rgba(16, 16, 16, 0.493);
     border-radius: 20px;
     position: fixed;
     width: 97%;
     border-left: none;
     border-right: none;
     border-top: none;
+    backdrop-filter: blur(5px);
+    z-index: 99;
 }
 
 
 
 .topnav {
-    background-color: rgb(16, 16, 16);
+    background-color: rgba(16, 16, 16, 0.493);
     border: 0.1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px 20px 7px 7px;
     width: 100%;
@@ -76,14 +78,25 @@
 
 .navele:hover:before {
     transform: scaleX(1);
-    /* transform: translateX(0); */
 }
 
 
 .logo {
     height: 4rem;
+    width: 10%;
+
+}
+
+.logo a {
     display: flex;
     align-items: center;
+    height: 100%;
+}
+
+.logo a img {
+    height: 100%;
+    filter: grayscale(1);
+    filter: saturate(2.2);
 }
 
 .logotext {

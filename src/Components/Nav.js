@@ -8,8 +8,10 @@ function Nav() {
     <div className='navbar'>
       <div className="topnav">
         <div className="logo">
-          <img src="logo.png" alt="" className='logo' />
-          <div className='logotext'>Aventus</div>
+          <a href="/">
+            <img src="logo.png" alt="" className='' />
+            {/* <div className='logotext'>Aventus</div> */}
+          </a>
         </div>
         <ul className="navitems">
           {arr.map((items, key) => <NavItems dv={items} key={key} />)}
