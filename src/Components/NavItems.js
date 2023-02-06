@@ -1,10 +1,10 @@
 import React from 'react'
-function NavItems({dv}) {
+function NavItems({ dv }) {
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   let interval = null;
 
-  function onmouse(event)  {
+  function onmouse(event) {
     let iteration = 0;
 
     clearInterval(interval);
@@ -26,13 +26,14 @@ function NavItems({dv}) {
         clearInterval(interval);
       }
 
-      iteration += 1 /3 ;
+      iteration += 1 / 3;
     }, 30);
   }
 
   return (
     <>
-    <li className="navele" data-value={dv} onMouseEnter={onmouse}>{dv}</li>
+      <li className="navele">
+        <div className='navelet' data-value={dv} onMouseEnter={onmouse}>{dv}</div></li>
     </>
   )
 }

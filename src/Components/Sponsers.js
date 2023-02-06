@@ -2,7 +2,7 @@ import React from 'react'
 
 function Sponsers() {
   return (
-    <div></div>
+    <div className='scroll' data-section-name={"s-four"}></div>
   )
 }
 

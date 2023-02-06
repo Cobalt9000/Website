@@ -1,38 +1,18 @@
-#root::-webkit-scrollbar {
-    display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-#root {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
-}
-
-
 .navbar {
     display: flex;
     color: rgba(255, 255, 255, 0.603);
     /* height: 92vh; */
     border: 0.1px solid rgb(64, 64, 64);
-
     background-color: rgb(16, 16, 16);
     border-radius: 20px;
     position: fixed;
     width: 97%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
 }
 
-#root {
-    margin: 1.5rem;
-    width: 97%;
-    background-color: rgb(16, 16, 16);
-    border: 0.1px solid rgb(64, 64, 64);
-    height: 95vh;
-    border-radius: 20px;
-    position: fixed;
-    overflow-y: scroll;
-}
+
 
 .topnav {
     background-color: rgb(16, 16, 16);
@@ -64,7 +44,6 @@
 }
 
 .navele:hover {
-    /* background-color: rgba(255, 255, 255, 0.792);  */
     color: black;
     transition: all 0.3s;
 }
@@ -72,7 +51,7 @@
 .navele::before {
     content: "";
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     top: 0;
     left: 0;
     right: 0;
@@ -81,8 +60,14 @@
     background-color: rgba(255, 255, 255, 0.974);
     color: black;
     transform: scaleX(0);
+    /* transform: translateX(-100px); */
     transform-origin: 0 50%;
     transition-duration: 0.3s;
+}
+
+.navelet {
+    position: relative;
+    z-index: 5;
 }
 
 .navele:hover {
@@ -91,6 +76,7 @@
 
 .navele:hover:before {
     transform: scaleX(1);
+    /* transform: translateX(0); */
 }
 
 

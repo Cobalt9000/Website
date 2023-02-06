@@ -12,7 +12,7 @@ function Nav() {
           <div className='logotext'>Aventus</div>
         </div>
         <ul className="navitems">
-          {arr.map(items => <NavItems dv={items} />)}
+          {arr.map((items, key) => <NavItems dv={items} key={key} />)}
         </ul>
       </div>
       <div className="columnnav"></div>
