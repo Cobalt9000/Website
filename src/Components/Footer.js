@@ -1,8 +1,11 @@
 import React from 'react'
 import './css/footer.css'
 function Footer() {
+
   return (
-    <div className='footer'>
+    <div className='footer' >
+      <div className="footer-draw-line-top" id='footer-draw-line-top'>
+      </div>
       <div className='footer-text-div'>
       <p className='footer-contact'>
         Contact Us
