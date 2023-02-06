@@ -1,0 +1,26 @@
+.footer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.footer-text-div{
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-contact{
+    font-size: small;
+}
+
+.footer-email{
+    font-size: xx-large;
+}
