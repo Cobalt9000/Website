@@ -24,8 +24,8 @@ function App() {
       <div style={style}>
         <Landing />
         <Tracks />
+        {/* <FAQ /> */}
         <Sponsers />
-        <FAQ />
         <Footer />
       </div>
     </>
