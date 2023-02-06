@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: Mandalore;
-    src: url("./fonts/Mandalore-K77lD.otf");
-}
 
 
 @font-face {
