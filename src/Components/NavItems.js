@@ -1,6 +1,6 @@
 import React from 'react'
 function NavItems({dv}) {
-    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   let interval = null;
 

@@ -8,6 +8,8 @@
     align-items: center;
     color: white;
     text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .footer-text-div{
@@ -24,6 +26,36 @@
 .footer-email{
     font-size: xx-large;
 }
+
+.footer-draw-line-top{
+    /* position: absolute;  */
+    left: 50%;
+    top: 50px;
+    right: auto;
+    bottom: 0px;
+    overflow: hidden;
+    width: 1px;
+    height: 144px;
+    background-color: rgba(255, 255, 255, 0.974);
+    opacity: 1;
+}
+
+.footer-draw-line-bottom{
+    left: 50%;
+    right: auto;
+    overflow: hidden;
+    width: 1px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.974);
+    opacity: 1;
+}
+
+
+.hide{
+    opacity: 0;
+    transition: all 1.5s;
+}
+
 
 @media only screen and (max-width: 640px) {
     .footer-contact{
