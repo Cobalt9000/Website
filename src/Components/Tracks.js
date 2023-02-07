@@ -7,7 +7,7 @@ import IOT from './IOT.json'
 function Tracks() {
   return (
     <div className='text-white w-full h-screen scroll' data-section-name={"s-two"}>
-      <div className="w-full">
+      <div className="w-full pt-16">
         <h1 className='text-3xl py-10 mx-auto px-10'> Tracks</h1>
       </div>
         <div className="w-full mx-auto px-4 py-10 flex justify-evenly" >
