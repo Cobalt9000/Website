@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+.acontent {
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    /* background-color: white; */
+    justify-content: space-between;
+}
+
+.s-two {
+
+    /* background: linear-gradient(180deg, #233329 20%, #021104); */
+    border-radius: 20px;
+}
+
+.timecount {
+    width: 65%;
+    display: flex;
+    padding: 2rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.cele {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 10%;
+    transition: all 0.3s;
+}
+
+.cele:hover {
+    transform: scale(1.1);
+}
+
+.cele:hover .celep {
+    color: white !important;
+
+}
+
+.celep {
+    transition: all 0.3s;
+}
+
+.cele p {
+    font-size: xx-large;
+    color: rgb(0, 190, 102);
+}
+
+
+
+.cele span {
+    font-size: larger;
+    color: rgb(0, 190, 102);
+}
+
+.t {
+    width: 15%;
+    font-size: x-large;
+    margin-right: 2rem;
+    color: rgb(0, 190, 102);
+}
+
+.lines {
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin: auto;
+    width: 90vw;
+    z-index: -1;
+}
+
+.line {
+
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.line::after {
+
+    content: '';
+
+    display: block;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    top: -50%;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #03ff2d 75%, #ffffff 100%);
+    animation: drop 7s 0s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+
+.line:nth-child(1) {
+
+    margin-left: -45%;
+}
+
+.line:nth-child(1)::after {
+
+    animation-delay: 2s;
+}
+
+.line:nth-child(2) {
+    margin-left: -25%;
+}
+
+.line:nth-child(2)::after {
+    animation-delay: 3.5s;
+}
+
+
+.line:nth-child(4) {
+    margin-left: 25%;
+}
+
+.line:nth-child(4)::after {
+    animation-delay: 6s;
+}
+
+.line:nth-child(5) {
+    margin-left: 45%;
+}
+
+.line:nth-child(5)::after {
+    animation-delay: 5s;
+}
+
+@keyframes drop {
+    0% {
+        top: -50%;
+    }
+
+    100% {
+        top: 110%
+    }
+}
+
+.aleft {
+    width: 60%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.aleft p {
+    margin: 1.5rem 0;
+    font-family: 'Nunito';
+    font-family: 600;
+    font-size: large;
+}
+
+.clgabout h1 {
+    font-size: xx-large;
+}
+
+.aright img {
+    width: 100%;
+    filter: hue-rotate(175deg);
+    /* background-color: rgba(233, 233, 233, 0.062); */
+    border-radius: 30rem;
+    right: 0;
+}
+
+.aright {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
