@@ -57,8 +57,8 @@ function Landing() {
           <div className="llogo"><img src="logo.png" alt="" /></div>
           <div className="msg">Connect with us on our socials</div>
           <div className="socialmediabtn">
-            <button className="sbtn "><FontAwesomeIcon icon={brands('discord')} className={"fa-2x"} /></button>
-            <button className="sbtn "><FontAwesomeIcon icon={brands('instagram')} className={"fa-2x"} /></button>
+            <button className="sbtn"><FontAwesomeIcon icon={brands('discord')} className={"fa-2x"} /></button>
+            <button className="sbtn"><FontAwesomeIcon icon={brands('instagram')} className={"fa-2x"} /></button>
             <button className="sbtn"><FontAwesomeIcon icon={brands('twitter')} className={"fa-2x"} /></button>
             <button className="sbtn"><FontAwesomeIcon icon={brands('linkedin')} className={"fa-2x"} /></button>
           </div>
