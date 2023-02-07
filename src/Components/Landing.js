@@ -14,7 +14,7 @@ function Landing() {
     const bg = swarmBackground({
       el: document.getElementById('effect'),
       eventsEl: document.getElementById('effect'),
-      gpgpuSize: 170,
+      gpgpuSize: 128,
       color: [0x00a69e, 0x00a69e],
       geometry: 'default'
     })
