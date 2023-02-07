@@ -20,7 +20,7 @@
     right: 0;
     bottom: 0;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     /* Black background with opacity */
     z-index: 2;
     /* Specify a stack order in case you're using a different order for other elements */
@@ -30,4 +30,138 @@
 
 .lcontent {
     padding-top: 10rem;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ename {
+    font-size: 7rem;
+    font-weight: bolder;
+}
+
+.etagline {
+    font-size: xx-large;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+
+.edate {
+    font-size: larger;
+    font-weight: 100;
+    font-family: 'Mont';
+    font-weight: bold;
+}
+
+.eline {
+
+    font-size: larger;
+    font-family: 'Mont';
+    font-weight: bold;
+}
+
+.lleft {
+    width: 49.5%;
+}
+
+.lright {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.llogo {
+    color: #fff;
+    margin: 40px 5rem;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10rem;
+    padding: 32px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px 9px #000000;
+}
+
+.llogo img {
+    height: 15rem;
+}
+
+.dbtn {
+    display: flex;
+    flex-direction: row;
+}
+
+.msg {
+    margin-bottom: 1rem;
+}
+
+.devbtn button svg {
+    margin-left: 0.5rem;
+}
+
+.devbtn button {
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 1rem 0.5rem;
+    border: 0;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1.2rem;
+    transition: all 0.2s;
+}
+
+
+.devbtn button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sbtn img {
+    width: 3rem;
+}
+
+.socialmediabtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sbtn {
+    display: inline-block;
+    padding: 1.5rem;
+    border: 0;
+    width: 4rem;
+    height: 4rem;
+
+    border-radius: 10rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+    transition: all 0.2s;
+}
+
+.sbtn:hover {
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+.invert {
+    filter: invert();
 }

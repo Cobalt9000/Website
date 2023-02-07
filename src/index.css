@@ -41,6 +41,23 @@
 	src: url("./fonts/OmegaFlight-BWjvx.otf");
 }
 
+@font-face {
+	font-family: Conversion;
+	src: url("./fonts/conversion.ttf");
+}
+
+@font-face {
+	font-family: Mont;
+	src: url('./fonts/Mont-HeavyDEMO.otf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Mont;
+	src: url('./fonts/Mont-ExtraLightDEMO.otf');
+	font-weight: normal;
+}
+
 body {
 	font-family: 'OmegaFlight';
 	background-color: rgba(0, 0, 0, 0.938);
