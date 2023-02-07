@@ -20,6 +20,7 @@
     "react-three-fiber": "^6.0.13",
     "react-use-scroll-snap": "^0.0.4",
     "three": "^0.149.0",
+    "threejs-toys": "^0.0.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
