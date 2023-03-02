@@ -8,7 +8,7 @@ function Tracks() {
   return (
     <div className='text-white w-full h-screen scroll' data-section-name={"s-two"}>
       <div className="w-full pt-16">
-        <h1 className='text-3xl py-10 mx-auto px-10'> Tracks</h1>
+        <h1 className='container text-3xl py-10 mx-auto px-10 text-center pt-16'> Tracks</h1>
       </div>
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4" >
             <div className="flex w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
