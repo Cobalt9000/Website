@@ -38,7 +38,14 @@ export default function About() {
                         <p>We are a group of students at Dayananda Sagar College of Engineering, passionate about technology and innovation. Our goal is to bring together the brightest minds from our campus and beyond to collaborate and build solutions to real-world problems.</p>
                         <p>Aventus hackathon is a 24-hour in-person event where participants form teams, develop new ideas and create functional prototypes. The event attracts top students from different backgrounds and disciplines, providing an inclusive environment for cross-disciplinary collaboration and learning.</p>
                         <p>With the support of industry partners and sponsors, we aim to provide participants with the resources they need to bring their ideas to life. We also offer talks, and mentorship opportunities to help participants grow their technical and creative skills.</p>
-                        <p>Join us for a weekend of coding, creating, and learning with like-minded individuals. Build a better future with Aventus, where technology flourishes</p>
+                        <p>Join us for a weekend of coding, creating, and learning with like-minded individuals.
+                        </p>
+                        <p>
+
+                            <strong>
+                                Build a better future with Aventus, Where Technology Flourishes.
+                            </strong>
+                        </p>
                     </div>
                 </div>
 

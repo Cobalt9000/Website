@@ -23,12 +23,15 @@ function Landing() {
     bg.three.camera.position.set(0, 0, 250)
 
     let ele = document.querySelectorAll('canvas')
-    if (ele[0] !== undefined) {
-      ele[0].style.display = "none"
+    if (ele.length > 1) {
+
+      if (ele[0] !== undefined) {
+        ele[0].style.display = "none"
+      }
     }
-    if (ele[1] !== undefined) {
-      ele[1].style.borderRadius = "20px"
-    }
+    ele.forEach((e) => {
+      e.style.borderRadius = "20px"
+    })
   }, [])
 
 
