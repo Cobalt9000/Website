@@ -196,3 +196,67 @@
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 640px) {
+
+    .acontent {
+        padding-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        /* background-color: white; */
+        justify-content: space-between;
+    }
+
+    .aleft {
+        width: 100%;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    .aright {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .timecount {
+        width: 80%;
+        display: flex;
+        padding: 2rem;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+    .t {
+        width: 100%;
+        font-size: x-large;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: rgb(0, 190, 102);
+    }
+
+    .cele {
+        margin: 1 1.5rem;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        width: 35%;
+        height: 10vh;
+        transition: all 0.3s;
+    }
+}
