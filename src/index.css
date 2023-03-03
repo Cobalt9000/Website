@@ -89,3 +89,14 @@ html {
 	box-shadow: 0px 0px 20px 5px #0000008c;
 	transition: all 0.3s;
 }
+@media only screen and (max-width: 640px) {
+	#root {
+		margin: .45rem;
+		width: 95%;
+		background-color: rgb(16, 16, 16);
+		border: 0.1px solid rgb(64, 64, 64);
+		height: 97vh;
+		border-radius: 20px;
+		position: fixed;
+	}
+}
