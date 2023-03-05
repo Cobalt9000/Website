@@ -207,7 +207,7 @@
 @media only screen and (max-width: 640px) {
 
     .acontent {
-        padding-top: 6rem;
+        padding-top: 5.5rem;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -218,7 +218,7 @@
 
     .aleft {
         width: 96%;
-        margin-top: 2rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -292,5 +292,14 @@
         width: 35%;
         height: 10vh;
         transition: all 0.3s;
+    }
+    .aleft p {
+        margin: 1.5rem 0;
+        font-family: 'Nunito';
+        font-family: 600;
+        font-size:  .75em;
+    }
+    .clgabout h1 {
+        font-size: large;
     }
 }
