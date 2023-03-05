@@ -5,7 +5,7 @@ function FAQ() {
     <>
       <section className="faq w-full max-w-3xl m-auto h-screen text-gray-100 scroll" data-section-name={"s-three"}>
         <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
-          <h2 className="text-2xl font-semibold sm:text-4xl pt-32">Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-semibold sm:text-4xl pb-5">Frequently Asked Questions</h2>
           <p className="mt-4 mb-text-gray-300"></p>
           <div className="space-y-4">
             <details className="w-full border rounded-lg">

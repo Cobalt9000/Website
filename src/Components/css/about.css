@@ -21,11 +21,10 @@
     width: 65%;
     display: flex;
     padding: 2rem;
-    margin: 1rem auto;
+    margin: 0rem auto;
     border-radius: 1rem;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 2rem;
     margin-bottom: 0;
 }
 
@@ -37,7 +36,7 @@
     align-items: center;
     padding: 1rem;
     border-radius: 1rem;
-    width: 10%;
+    width: 15%;
     transition: all 0.3s;
 }
 
@@ -67,10 +66,18 @@
 }
 
 .t {
-    width: 15%;
+    width: 20%;
     font-size: x-large;
     margin-right: 2rem;
     color: rgb(0, 190, 102);
+}
+
+.track {
+    scale: 0.9;
+}
+
+.sponsors {
+    scale: 0.8;
 }
 
 .lines {
@@ -163,7 +170,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 100%;
-    padding: 2rem;
+    padding: 1rem 2rem;
     border-radius: 1rem;
 }
 
@@ -171,15 +178,15 @@
     margin: 1.5rem 0;
     font-family: 'Nunito';
     font-family: 600;
-    font-size: large;
+    font-size: small;
 }
 
 .faq {
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .clgabout h1 {
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .aright img {
@@ -210,7 +217,7 @@
     }
 
     .aleft {
-        width: 100%;
+        width: 96%;
         margin-top: 2rem;
         display: flex;
         flex-direction: column;
@@ -218,25 +225,52 @@
         height: 100%;
         padding: 1rem;
         border-radius: 1rem;
+        margin: 0.5rem;
     }
+
     .aright {
         width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
+        display: none;
     }
+
     .timecount {
-        width: 80%;
+        width: 100%;
         display: flex;
         padding: 2rem;
-        margin: 1rem auto;
+        margin: auto;
         border-radius: 1rem;
         flex-direction: row;
         justify-content: space-evenly;
-        flex-flow: row wrap;
-        margin-top: 2rem;
+        /* flex-flow: row wrap; */
         margin-bottom: 0;
+        transform: scale(0.4);
+        margin-top: -2rem;
+
     }
+
+    .track .flex .px-6 div:nth-child(1) {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    .track .flex {
+        width: 100%;
+        width: 45% !important;
+    }
+
+    .track .flex .px-6 {
+        padding: 0;
+        width: 100%;
+    }
+
+    .track {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
     .t {
         width: 100%;
         font-size: x-large;

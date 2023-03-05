@@ -29,12 +29,13 @@
 }
 
 .lcontent {
-    padding-top: 10rem;
+    padding-top: 5rem;
     margin: auto;
     width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    transform: scale(0.9);
 }
 
 .ename {
@@ -184,8 +185,8 @@
     margin: auto;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
-
+    margin-top: 0rem;
+    transform: scale(0.75);
     color: #fff;
     background-color: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -217,9 +218,9 @@
 }
 
 @media only screen and (max-width: 640px) {
-    
-    
-    .lcontent{
+
+
+    .lcontent {
         padding-top: 3rem;
         margin: auto;
         width: 80%;
@@ -227,7 +228,7 @@
         flex-direction: column;
         justify-content: space-evenly;
     }
-    
+
     .lleft {
         width: 100%;
         display: flex;
@@ -246,20 +247,20 @@
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
-    
+
     .edate {
         font-size: medium;
         font-weight: 100;
         font-family: 'Mont';
         font-weight: bold;
     }
-    
+
     .eline {
         font-size: medium;
         font-family: 'Mont';
         font-weight: bold;
     }
-    
+
 
     .lright {
         width: 100%;
@@ -282,7 +283,7 @@
         transition: all 0.3s;
     }
 
-    .llogo img{
+    .llogo img {
         height: 5rem;
     }
 
@@ -293,11 +294,11 @@
         margin-bottom: 1rem;
         font-size: medium;
     }
-    
+
     .devbtn button svg {
         margin-left: 0.5rem;
     }
-    
+
     .devbtn button {
         margin-top: 2rem;
         display: inline-block;
@@ -315,35 +316,35 @@
         padding-left: 1.2rem;
         transition: all 0.2s;
     }
-    
+
     .llogo:hover {
         background-color: rgba(255, 255, 255, 0.1);
         transform: scale(1.1);
     }
-    
+
     .devbtn button:hover {
         background-color: rgba(255, 255, 255, 0.2);
         transform: scale(1.1);
     }
-    
+
     .sbtn img {
         width: 3rem;
     }
-    
+
     .socialmediabtn {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-    
+
     .sbtn {
         display: inline-block;
         padding: 1rem;
         border: 0;
         width: 3rem;
         height: 3rem;
-    
+
         border-radius: 10rem;
         background-color: rgba(255, 255, 255, 0.1);
         border: 1px solid rgba(255, 255, 255, 0.1);
@@ -358,16 +359,16 @@
         margin: 0 1rem;
         transition: all 0.2s;
     }
-    
+
     .sbtn:hover {
         background-color: rgba(255, 255, 255, 0.281);
         transform: scale(1.1);
     }
-    
+
     .invert {
         filter: invert();
     }
-    
+
     .presented {
         display: flex;
         flex-direction: column;
@@ -375,8 +376,8 @@
         margin: auto;
         justify-content: center;
         align-items: center;
-        margin-top: 4rem;
-    
+        margin-top: 0rem;
+
         color: #fff;
         background-color: rgba(255, 255, 255, 0.06);
         border: 1px solid rgba(255, 255, 255, 0.1);
@@ -386,23 +387,26 @@
         transition: all 0.3s;
         padding: 1rem;
     }
-    
+
     .ptext {
         margin-bottom: 0.25rem;
         font-family: 'Mont';
         font-weight: bold;
     }
-    
+
     .pname {
-    
-        font-size: medium;
+
+        font-size: small;
         font-family: 'Mont';
         font-weight: bold;
         margin-bottom: 0.5rem;
+        text-align: center;
+        margin-top: 1rem;
     }
-    
+
     .pclg {
         font-size: 1.5rem;
+        text-align: center;
         /* font-family: 'Conversion'; */
         /* font-weight: bold */
     }
