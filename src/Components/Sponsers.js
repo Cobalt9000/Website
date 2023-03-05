@@ -8,17 +8,17 @@ function Sponsers() {
         <div class="container px-5 py-8 mx-auto">
           <div class="self-center items-center font-bold text-white text-xl pb-8">Gold</div>
           <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/3">
+            <div class="p-4 w-1/3">
               <div class="">
                 <img class="lg:h-24 md:h-16 w-full  object-center" src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-white.svg" alt="blog" />
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
+            <div class="p-4 w-1/3">
               <div class="">
                 <img class="lg:h-24 md:h-16 w-full  object-center" src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-white.svg" alt="blog" />
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
+            <div class="p-4 w-1/3">
               <div class="">
                 <img class="lg:h-24 md:h-16 w-full  object-center" src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-white.svg" alt="blog" />
               </div>
@@ -29,19 +29,19 @@ function Sponsers() {
         <div class="container px-5 py-8 mx-auto">
           <div class="self-center items-center font-bold text-white text-xl pb-8">Silver</div>
           <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/3">
+            <div class="p-4 w-1/3">
               <div class="">
                 <img class="lg:h-24 md:h-16 w-full  object-center" src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-white.svg" alt="blog" />
 
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
+            <div class="p-4 w-1/3">
               <div class="">
                 <img class="lg:h-24 md:h-16 w-full  object-center" src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-white.svg" alt="blog" />
 
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
+            <div class="p-4 w-1/3">
               <div class="">
                 <img class="lg:h-24 md:h-16 w-full  object-center" src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-white.svg" alt="blog" />
               </div>
@@ -52,19 +52,19 @@ function Sponsers() {
         <div class="container px-5 py-8 mx-auto">
           <div class="self-center items-center font-bold text-white text-xl pb-8">Bronze</div>
           <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/3">
+            <div class="p-4 w-1/3">
               <div class="">
                 <img class="lg:h-24 md:h-16 w-full  object-center" src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-white.svg" alt="blog" />
 
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
+            <div class="p-4 w-1/3">
               <div class="">
                 <img class="lg:h-24 md:h-16 w-full  object-center" src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-white.svg" alt="blog" />
 
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
+            <div class="p-4 w-1/3">
               <div class="">
                 <img class="lg:h-24 md:h-16 w-full  object-center" src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-white.svg" alt="blog" />
               </div>
