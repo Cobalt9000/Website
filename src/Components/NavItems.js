@@ -32,8 +32,8 @@ function NavItems({ dv }) {
 
   return (
     <>
-      <li className="navele">
-        <div className='navelet' data-value={dv} onMouseEnter={onmouse}>{dv}</div></li>
+      <a className="navele" href={'#'+dv}>
+        <div className='navelet' data-value={dv} onMouseEnter={onmouse}>{dv}</div></a>
     </>
   )
 }

@@ -23,7 +23,7 @@ export default function About() {
 
 
     return (
-        <div className='text-white h-screen scroll s-two' data-section-name={"s-two"}>
+        <div className='text-white h-screen scroll s-two' data-section-name={"s-two"} id={"About"}>
             <div class="lines">
                 <div class="line"></div>
                 <div class="line"></div>

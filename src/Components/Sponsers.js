@@ -2,7 +2,7 @@ import React from 'react'
 
 function Sponsers() {
   return (
-    <div className='scroll' data-section-name={"s-four"}>
+    <div className='scroll' data-section-name={"s-four"} id={"Sponsers"}>
       <section class="text-gray-600 body-font h-full pt-10 w-full sponsors">
         <div class="container text-4xl mx-auto w-full text-center text-white">Sponsers</div>
         <div class="container px-5 py-8 mx-auto">

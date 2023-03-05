@@ -3,7 +3,7 @@ import './css/navbar.css'
 import NavItems from './NavItems';
 function Nav() {
 
-  const arr = ["About", "Schedule", "Tracks", "Sponsors", "FAQ"];
+  const arr = ["About",  "Tracks", "Sponsors", "FAQ"];
   return (
     <div className='navbar'>
       <div className="topnav">

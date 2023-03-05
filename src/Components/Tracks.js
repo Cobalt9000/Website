@@ -6,7 +6,7 @@ import OpenInnovation from './OpenInnovation.json'
 import IOT from './IOT.json'
 function Tracks() {
   return (
-    <div className='text-white w-full h-screen scroll' data-section-name={"s-two"}>
+    <div className='text-white w-full h-screen scroll' data-section-name={"s-two"} id={"Tracks"}>
       <div className="w-full pt-16">
         <h1 className='container text-3xl py-10 mx-auto px-10 text-center pt-16'> Tracks</h1>
       </div>
