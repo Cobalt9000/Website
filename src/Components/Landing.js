@@ -54,7 +54,7 @@ function Landing() {
         <div className="lleft">
           <div className="ename">Aventus</div>
           <div className="etagline">Innovate For Impact</div>
-          <div className="edate">5th & 6th May 2023</div>
+          <div className="edate">8th & 9th May 2023</div>
           <div className="eline">{"24 Hours Hack"}</div>
           <div className="devbtn">
             {/* <button className="dbtn">

@@ -5,7 +5,7 @@ import "./css/about.css"
 export default function About() {
     const [time, setTime] = useState({})
     useEffect(() => {
-        let date = new Date("May 05, 2023 00:00:00").getTime();
+        let date = new Date("May 08, 2023 00:00:00").getTime();
         setInterval(function () {
             let now = new Date().getTime();
             let dist = date - now;
