@@ -23,7 +23,7 @@ function Footer() {
 
   }, [lineRef])
   return (
-    <div className='footer scroll' data-section-name={"s-five"} ref={lineRef}>
+    <div className='footer' data-section-name={"s-five"} ref={lineRef}>
       <div className="footer-draw-line-top" id='footer-draw-line-top'>
       </div>
       <div className='footer-text-div'>
@@ -31,7 +31,7 @@ function Footer() {
           Contact Us
         </p>
         <h1 className='footer-email'>
-          hackaventus@support.com
+          one@hackaventus.com
         </h1>
       </div>
       <div className="footer-draw-line-bottom">

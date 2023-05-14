@@ -47,14 +47,15 @@ function Landing() {
 
 
   return (
-    <div className='h-screen text-white scroll' data-section-name={"s-one"}>
+    <div className='h-screen text-white' data-section-name={"s-one"}>
       <div id='effect'>
       </div>
       <div className="lcontent">
         <div className="lleft">
           <div className="ename">Aventus</div>
-          <div className="etagline">Innovate For Impact</div>
-          <div className="edate">8th & 9th May 2023</div>
+          <div className="etagline">where technology flourishes</div>
+          <div className="etagline">#wtf</div>
+          <div className="edate">2nd - 3rd June 2023</div>
           <div className="eline">{"24 Hours Hack"}</div>
           <div className="devbtn">
             {/* <button className="dbtn">
@@ -64,22 +65,28 @@ function Landing() {
                 <path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"></path>
               </svg>
             </button> */}
-            <div 
-              className="apply-button" 
-              data-hackathon-slug="aventus" 
-              data-button-theme="dark"
-              style={{display:"flex", flexDirection:"column", zIndex:100}}
-            ></div>
+            <div className="p-10" style={{display:"flex", flexDirection:"column", zIndex:100}}>
+              <div
+                  className="apply-button"
+                  data-hackathon-slug="aventus"
+                  data-button-theme="dark"
+              ></div>
+            </div>
+
+
           </div>
         </div>
         <div className="lright">
           <div className="llogo"><img src="logo.png" alt="" /></div>
           <div className="msg">Connect with us on our socials</div>
           <div className="socialmediabtn">
-            <button className="sbtn"><FontAwesomeIcon icon={brands('discord')} className={"fa-2x"} /></button>
-            <button className="sbtn"><FontAwesomeIcon icon={brands('instagram')} className={"fa-2x"} /></button>
-            <button className="sbtn"><FontAwesomeIcon icon={brands('twitter')} className={"fa-2x"} /></button>
-            <button className="sbtn"><FontAwesomeIcon icon={brands('linkedin')} className={"fa-2x"} /></button>
+            <a href="https://www.instagram.com/hackaventus/" target="_blank" rel="noopener noreferrer">
+              <button className="sbtn"><FontAwesomeIcon icon={brands('instagram')} className={"fa-2x"} /></button>
+            </a>
+
+            <a href="https://www.linkedin.com/showcase/aventus-dsce/" target="_blank" rel="noopener noreferrer">
+              <button className="sbtn"><FontAwesomeIcon icon={brands('linkedin')} className={"fa-2x"} /></button>
+            </a>
           </div>
         </div>
       </div>

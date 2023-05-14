@@ -5,7 +5,7 @@ import "./css/about.css"
 export default function About() {
     const [time, setTime] = useState({})
     useEffect(() => {
-        let date = new Date("May 08, 2023 00:00:00").getTime();
+        let date = new Date("June 02, 2023 09:00:00").getTime();
         setInterval(function () {
             let now = new Date().getTime();
             let dist = date - now;
@@ -23,7 +23,7 @@ export default function About() {
 
 
     return (
-        <div className='text-white h-screen scroll s-two' data-section-name={"s-two"} id={"About"}>
+        <div className='text-white h-screen s-two' data-section-name={"s-two"} id={"About"}>
             <div class="lines">
                 <div class="line"></div>
                 <div class="line"></div>
@@ -35,10 +35,10 @@ export default function About() {
                 <div className="aleft glass">
                     <div className="clgabout">
                         <h1>About Aventus</h1>
-                        <p>We are a group of students at Dayananda Sagar College of Engineering, passionate about technology and innovation. Our goal is to bring together the brightest minds from our campus and beyond to collaborate and build solutions to real-world problems.</p>
-                        <p>Aventus hackathon is a 24-hour in-person event where participants form teams, develop new ideas and create functional prototypes. The event attracts top students from different backgrounds and disciplines, providing an inclusive environment for cross-disciplinary collaboration and learning.</p>
-                        <p>With the support of industry partners and sponsors, we aim to provide participants with the resources they need to bring their ideas to life. We also offer talks, and mentorship opportunities to help participants grow their technical and creative skills.</p>
-                        <p>Join us for a weekend of coding, creating, and learning with like-minded individuals.
+                        <p>Welcome to Aventus, a 24-hour hackathon hosted by Dayananda Sagar College of Engineering's Department of Artificial Intelligence & Machine Learning, in collaboration with our esteemed clubs, Point Blank and Code4Thought. </p>
+                        <p>Set to take place on the 2nd and 3rd of June, this offline event aims to bring together a diverse group of college students to create groundbreaking solutions and drive progress in technology and society.</p>
+                        <p>With four exciting tracks to choose from—AI & ML, Open Innovation, Blockchain & Web3, and Hardware & IoT—participants will have the opportunity to collaborate, learn, and showcase their skills in front of potential sponsors and employers.</p>
+                        <p>Join us at Aventus as we foster innovation, nurture talent, and redefine the future of technology together. Register now and be a part of this incredible journey!
                         </p>
                         <p>
 
