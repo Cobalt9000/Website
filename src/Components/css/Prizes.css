@@ -1,0 +1,30 @@
+.prizes {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.prize-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.prize-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prize-title,
+.prize-amount {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.sponsor-prize {
+    margin-top: 1.5rem;
+}
+
+.sponsor-prize-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
