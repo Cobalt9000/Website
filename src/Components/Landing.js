@@ -47,7 +47,7 @@ function Landing() {
 
 
   return (
-    <div className='h-screen text-white h-auto' data-section-name={"s-one"}>
+    <div className='text-white h-auto' data-section-name={"s-one"}>
       <div id='effect'>
       </div>
       <div className="lcontent">
