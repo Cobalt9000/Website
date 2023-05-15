@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./css/landing.css"
 import { useEffect } from 'react'
 import { swarmBackground } from 'threejs-toys'
@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function Landing() {
-
+  const [height, setHeight] = useState('100%');
   useEffect(() => {
       const script = document.createElement('script');
       script.src = 'https://apply.devfolio.co/v2/sdk.js';
@@ -17,9 +17,23 @@ function Landing() {
         document.body.removeChild(script);
       }
     }, []);
+    
+    useEffect(() => {
+      var landing_main = document.getElementById('landing-main');
+      if(landing_main.offsetHeight) {
+        setHeight(landing_main.offsetHeight);
+    
+      } else if(landing_main.style.pixelHeight) {
+          setHeight(landing_main.style.pixelHeight);
+      
+      }
+    console.log({height});
+    const divEffect = document.getElementById('effect');
+    divEffect.style.height = height;
+    console.log({divEffect});
+    }, [height] )
 
-  useEffect(() => {
-
+    useEffect(() => {
     const bg = swarmBackground({
       el: document.getElementById('effect'),
       eventsEl: document.getElementById('effect'),
@@ -27,13 +41,13 @@ function Landing() {
       color: [0x00a69e, 0x00a69e],
       geometry: 'default'
     })
-
+    
     bg.setColors([0x00a69e, 0x00ff51])
     bg.three.camera.position.set(0, 0, 250)
-
+    
     let ele = document.querySelectorAll('canvas')
     if (ele.length > 1) {
-
+      
       if (ele[0] !== undefined) {
         ele[0].style.display = "none"
       }
@@ -41,13 +55,14 @@ function Landing() {
     ele.forEach((e) => {
       e.style.borderRadius = "20px"
     })
+    
   }, [])
-
-
+  
+  
 
 
   return (
-    <div className='text-white h-auto' data-section-name={"s-one"}>
+    <div id='landing-main' data-section-name={"s-one"}>
       <div id='effect'>
       </div>
       <div className="lcontent">
