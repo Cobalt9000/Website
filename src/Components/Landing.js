@@ -18,20 +18,20 @@ function Landing() {
       }
     }, []);
     
-    useEffect(() => {
-      var landing_main = document.getElementById('landing-main');
-      if(landing_main.offsetHeight) {
-        setHeight(landing_main.offsetHeight);
+    // useEffect(() => {
+    //   var landing_main = document.getElementById('landing-main');
+    //   if(landing_main.offsetHeight) {
+    //     setHeight(landing_main.offsetHeight);
     
-      } else if(landing_main.style.pixelHeight) {
-          setHeight(landing_main.style.pixelHeight);
+    //   } else if(landing_main.style.pixelHeight) {
+    //       setHeight(landing_main.style.pixelHeight);
       
-      }
-    console.log({height});
-    const divEffect = document.getElementById('effect');
-    divEffect.style.height = height;
-    console.log({divEffect});
-    }, [height] )
+    //   }
+    // console.log({height});
+    // const divEffect = document.getElementById('effect');
+    // divEffect.style.height = height;
+    // console.log({divEffect});
+    // }, [height] )
 
     useEffect(() => {
     const bg = swarmBackground({
