@@ -73,7 +73,7 @@ function Landing() {
           <div className="edate">2nd - 3rd June 2023</div>
           <div className="eline">{"24 Hours Hack"}</div>
           <div className="devbtn">
-            <a href='https://hackaventus.com/'>
+            <a href='https://drive.google.com/file/d/1XXcOJrpcSMv21vIhx7v_jqwQ0cjN7gFy/view?usp=sharing'>
               <button className="dbtn">
               <p>Selected Teams</p>
               {/* <svg className="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 115.46 123.46" style={{ "height": "24px", "width": "24px", "marginRight": "8px" }}>
