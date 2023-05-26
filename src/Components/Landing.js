@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./css/landing.css"
 import { useEffect } from 'react'
 import { swarmBackground } from 'threejs-toys'
@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function Landing() {
-
+  const [height, setHeight] = useState('100%');
   useEffect(() => {
       const script = document.createElement('script');
       script.src = 'https://apply.devfolio.co/v2/sdk.js';
@@ -17,9 +17,23 @@ function Landing() {
         document.body.removeChild(script);
       }
     }, []);
+    
+    // useEffect(() => {
+    //   var landing_main = document.getElementById('landing-main');
+    //   if(landing_main.offsetHeight) {
+    //     setHeight(landing_main.offsetHeight);
+    
+    //   } else if(landing_main.style.pixelHeight) {
+    //       setHeight(landing_main.style.pixelHeight);
+      
+    //   }
+    // console.log({height});
+    // const divEffect = document.getElementById('effect');
+    // divEffect.style.height = height;
+    // console.log({divEffect});
+    // }, [height] )
 
-  useEffect(() => {
-
+    useEffect(() => {
     const bg = swarmBackground({
       el: document.getElementById('effect'),
       eventsEl: document.getElementById('effect'),
@@ -27,13 +41,13 @@ function Landing() {
       color: [0x00a69e, 0x00a69e],
       geometry: 'default'
     })
-
+    
     bg.setColors([0x00a69e, 0x00ff51])
     bg.three.camera.position.set(0, 0, 250)
-
+    
     let ele = document.querySelectorAll('canvas')
     if (ele.length > 1) {
-
+      
       if (ele[0] !== undefined) {
         ele[0].style.display = "none"
       }
@@ -41,13 +55,14 @@ function Landing() {
     ele.forEach((e) => {
       e.style.borderRadius = "20px"
     })
+    
   }, [])
-
-
+  
+  
 
 
   return (
-    <div className='h-screen text-white' data-section-name={"s-one"}>
+    <div id='landing-main' data-section-name={"s-one"}>
       <div id='effect'>
       </div>
       <div className="lcontent">
@@ -58,13 +73,15 @@ function Landing() {
           <div className="edate">2nd - 3rd June 2023</div>
           <div className="eline">{"24 Hours Hack"}</div>
           <div className="devbtn">
-            {/* <button className="dbtn">
-              <div>Apply with Devfolio</div>
-              <svg className="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 115.46 123.46" style={{ "height": "24px", "width": "24px", "marginRight": "8px" }}>
+            <a href='https://drive.google.com/uc?export=download&id=13zdqjMZIH8jL1K3vKTR7w7vya9rA_Ko6'>
+              <button className="dbtn">
+              <p>Selected Teams</p>
+              {/* <svg className="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 115.46 123.46" style={{ "height": "24px", "width": "24px", "marginRight": "8px" }}>
                 <path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z"></path>
                 <path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"></path>
-              </svg>
-            </button> */}
+              </svg> */}
+            </button>
+            </a>
             <div className="p-10" style={{display:"flex", flexDirection:"column", zIndex:100}}>
               <div
                   className="apply-button"
