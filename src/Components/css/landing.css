@@ -100,6 +100,7 @@
 .dbtn {
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 
 .msg {
@@ -111,11 +112,18 @@
 
 .devbtn button svg {
     margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .devbtn button {
     margin-top: 2rem;
-    display: inline-block;
+    display: flex;
+    align-self: auto;
+    margin-left: 2.5rem;
+    width: 20rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     padding: 1rem 0.5rem;
     border: 0;
     border-radius: 15px;
@@ -126,9 +134,15 @@
     font-size: 14px;
     cursor: pointer;
     display: flex;
-    flex-direction: row;
-    padding-left: 1.2rem;
     transition: all 0.2s;
+}
+
+.devbtn p{
+    font-size: large;
+    font-weight: 100;
+    font-family: 'Mont';
+    font-weight: bold;
+    text-align: center;
 }
 
 .llogo:hover {
