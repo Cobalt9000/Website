@@ -82,12 +82,17 @@ function Landing() {
               </svg> */}
             </button>
             </a>
+            <a href=''>
+              <button className="timeline">
+              <p>Timeline</p>
+            </button>
+            </a>
             <div className="p-10" style={{display:"flex", flexDirection:"column", zIndex:100}}>
-              <div
+              {/* <div
                   className="apply-button"
                   data-hackathon-slug="aventus"
                   data-button-theme="dark"
-              ></div>
+              ></div> */}
             </div>
 
 
