@@ -9,15 +9,15 @@ function Prizes() {
                 <div className="prize-list">
                     <div className="prize-item">
                         <h3 className="prize-title">Grand Prize:</h3>
-                        <p className="prize-amount">To Be Announced ( TBA )</p>
+                        <p className="prize-amount">To Be Announced </p>
                     </div>
                     <div className="prize-item">
                         <h3 className="prize-title">Runners up:</h3>
-                        <p className="prize-amount">To Be Announced ( TBA )</p>
+                        <p className="prize-amount">To Be Announced </p>
                     </div>
                     <div className="prize-item">
                         <h3 className="prize-title">Track prizes:</h3>
-                        <p className="prize-amount">To Be Announced ( TBA )</p>
+                        <p className="prize-amount">To Be Announced </p>
                     </div>
                 </div>
                 <div className="sponsor-prize">

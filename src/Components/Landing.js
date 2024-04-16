@@ -86,7 +86,7 @@ function Landing() {
             <a href=''>
               <button className="timeline">
               <p>Timeline</p>
-              </button>
+            </button>
             </a>
             <div classname="registration">
               <a href=''>

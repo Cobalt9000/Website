@@ -1,0 +1,14 @@
+.timeline img {
+    max-height: 100%;
+    max-width: 300%;
+    height: 60vh;
+    width: 110vw;
+    align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+    .timeline .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

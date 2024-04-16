@@ -44,6 +44,7 @@ import image33 from "./images/IMG_5941.JPG";
 import image34 from "./images/IMG_5997.JPG";
 import image35 from "./images/IMG_6012.JPG";
 import image36 from "./images/IMG_9807.JPG";
+import Timeline from "./Components/Timeline.js";
 import './App.css';
 
 function App() {
@@ -92,6 +93,7 @@ function App() {
                 <Landing />
                 <About />
                 <Tracks />
+                
                 <Prizes />
                 <div
                     style={{
@@ -102,6 +104,7 @@ function App() {
                 >
                     <FAQ />
                     <Sponsors />
+                    <Timeline />
                     
                     
                 </div>
