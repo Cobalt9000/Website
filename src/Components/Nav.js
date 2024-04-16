@@ -4,7 +4,7 @@ import NavItems from './NavItems';
 
 function Nav() {
 
-    const arr = ["About", "Tracks", "Prizes", "Sponsors", "FAQ"];
+    const arr = ["About", "Tracks", "Prizes", "Sponsors", "FAQ", "Glimpse","Timeline"];
     return (
         <div className='navbar'>
             <div className="topnav">
@@ -19,7 +19,7 @@ function Nav() {
                 </ul>
             </div>
             <div className="columnnav"></div>
-        </div >
+        </div>
     )
 }
 

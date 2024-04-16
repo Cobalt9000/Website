@@ -15,7 +15,7 @@ function Tracks() {
           <div className="px-6" >
             <TracksAnimation animationData={AI} />
             <div className="pt-6 text-center" >
-              <h1 className="text-gray-100 text-xl leading-normal mt-0 mb-2">AIML</h1>
+              <h1 className="text-gray-100 text-xl leading-normal mt-0 mb-2">Cyber Intelligence</h1>
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@ function Tracks() {
           <div className="px-6" >
             <TracksAnimation animationData={Blockchain} />
             <div className="pt-6 text-center">
-              <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">Blockchain</h1>
+              <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">Gen AI</h1>
 
             </div>
           </div>
@@ -32,7 +32,7 @@ function Tracks() {
           <div className="px-6" >
             <TracksAnimation animationData={IOT} />
             <div className="pt-6 text-center">
-              <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">IOT</h1>
+              <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">IoT Industry 5.0</h1>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ function Tracks() {
           <div className="px-6">
             <TracksAnimation animationData={OpenInnovation} />
             <div className="pt-6 text-center">
-              <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">Open Innovation</h1>
+              <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">Web 3.0</h1>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import "./css/about.css"
 export default function About() {
     const [time, setTime] = useState({})
     useEffect(() => {
-        let date = new Date("June 02, 2023 09:00:00").getTime();
+        let date = new Date("May 18, 2024 09:00:00").getTime();
         setInterval(function () {
             let now = new Date().getTime();
             let dist = date - now;
@@ -34,10 +34,10 @@ export default function About() {
             <div className="acontent">
                 <div className="aleft glass">
                     <div className="clgabout">
-                        <h1>About Aventus</h1>
-                        <p>Welcome to Aventus, a 24-hour hackathon hosted by Dayananda Sagar College of Engineering's Department of Artificial Intelligence & Machine Learning, in collaboration with our esteemed clubs, Point Blank and Code4Thought. </p>
-                        <p>Set to take place on the 2nd and 3rd of June, this offline event aims to bring together a diverse group of college students to create groundbreaking solutions and drive progress in technology and society.</p>
-                        <p>With four exciting tracks to choose from—AI & ML, Open Innovation, Blockchain & Web3, and Hardware & IoT—participants will have the opportunity to collaborate, learn, and showcase their skills in front of potential sponsors and employers.</p>
+                        <h1>About Aventus 2.0</h1>
+                        <p>Welcome to Aventus, a 24-hour hackathon hosted by Department of Artificial Intelligence & Machine Learning, Dayananda Sagar College of Engineering, in collaboration with our esteemed club Code4Thought. </p>
+                        <p>Set to take place on the 18th and 19th of May, this offline event aims to bring together a diverse group of college students to create groundbreaking solutions and drive progress in technology and society.</p>
+                        <p>With four exciting tracks to choose from—Cyber Intelligence, Gen AI, Web 3.0 and Hardware & IoT—participants will have the opportunity to collaborate, learn, and showcase their skills in front of potential sponsors and employers.</p>
                         <p>Join us at Aventus as we foster innovation, nurture talent, and redefine the future of technology together. Register now and be a part of this incredible journey!
                         </p>
                         <p>
