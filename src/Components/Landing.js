@@ -83,6 +83,7 @@ function Landing() {
               </svg> */}
             </button>
             </a>
+<<<<<<< HEAD
             <a href=''>
               <button className="timeline">
               <p>Timeline</p>
@@ -91,10 +92,14 @@ function Landing() {
           
             <div className="p-" style={{display:"flex", flexDirection:"column", zIndex:100}}>
               {/* <div
+=======
+            <div className="p-10" style={{display:"flex", flexDirection:"column", zIndex:100}}>
+              <div
+>>>>>>> parent of 85a413a (Added timeline)
                   className="apply-button"
                   data-hackathon-slug="aventus"
                   data-button-theme="dark"
-              ></div> */}
+              ></div>
             </div>
             <div className="p-10" style={{display:"flex", flexDirection:"column", zIndex:100}}>
               <div
