@@ -50,7 +50,7 @@ export default function About() {
                 </div>
 
                 <div className="aright">
-                    <img src="Aventus 2.0 Logo.gif" alt="" className='' />
+                    <img src="aventus.gif" alt="" className='' />
                 </div>
             </div>
             <div className="timecount">

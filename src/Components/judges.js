@@ -62,17 +62,17 @@ const data = [
   {
     name: `To Be Announced`,
     img: `mentor.png`,
-    description: `From a well-known Starup with expertise in the field of AR/VR `,
+    description: `Reavealing Soon `,
   },
   {
     name: `To Be Announced`,
     img: `mentor.png`,
-    description: `From a well-known Starup who has worked in the industry for over a decade.`
+    description: `Reavealing Soon `,
   },
   {
     name: `To Be Announced`,
     img: `mentor.png`,
-    description: `to be announced shortly.`
+    description: `Reavealing Soon`,
   },
   
 ];
