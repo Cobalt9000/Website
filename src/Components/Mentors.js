@@ -62,42 +62,42 @@ function Mentors() {
 const data = [
  {
    name: `To be Announced`,
-   img: `mentor.png`,
+   img: `mentors.jpeg`,
    description: `To be disclosed shortly`,
  },
  {
   name: `To be Announced`,
-  img: `mentor.png`,
+  img: `mentors.jpeg`,
   description: `To be disclosed shortly`,
 },
 {
   name: `To be Announced`,
-  img: `mentor.png`,
+  img: `mentors.jpeg`,
   description: `To be disclosed shortly`,
 },
 {
   name: `To be Announced`,
-  img: `mentor.png`,
+  img: `mentors.jpeg`,
   description: `To be disclosed shortly`,
 },
 {
   name: `To be Announced`,
-  img: `mentor.png`,
+  img: `mentors.jpeg`,
   description: `To be disclosed shortly`,
 },
 {
   name: `To be Announced`,
-  img: `mentor.png`,
+  img: `mentors.jpeg`,
   description: `To be disclosed shortly`,
 },
 {
   name: `To be Announced`,
-  img: `mentor.png`,
+  img: `mentors.jpeg`,
   description: `To be disclosed shortly`,
 },
 {
   name: `To be Announced`,
-  img: `mentor.png`,
+  img: `mentors.jpeg`,
   description: `To be disclosed shortly`,
 },
 ];

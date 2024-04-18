@@ -5,11 +5,11 @@ function FAQ() {
     <>
       <section className="faq w-full max-w-3xl m-auto text-gray-100" data-section-name={"s-three"} id={"FAQ"}>
         <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
-          <h2 className="text-2xl font-semibold sm:text-4xl pb-5">Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-semibold sm:text-4xl pb-5">Frequently   Asked   Questions</h2>
           <p className="mt-4 mb-text-gray-300"></p>
           <div className="space-y-4">
             <details className="w-full border rounded-lg">
-              <summary className="px-4 py-6 focus:outline-none">Who is eligible to participate in Aventus?</summary>
+              <summary className="px-4 py-6 focus:outline-none">Who  is  eligible  to  participate  in  Aventus?</summary>
               <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-300">Aventus Hackathon is open to all college students. Team sizes can range from 2 to 4 members.</p>
             </details>
             <details className="w-full border rounded-lg">

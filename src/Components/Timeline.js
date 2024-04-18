@@ -15,7 +15,7 @@ function timeline() {
                         </div>
                         <div className="p-4 md:w-1/3 sm:w-full">
                             <div className="flex items-center justify-center h-full">
-                                <img className="h-24 w-auto object-center" src="timeline1.jpg" alt="timeline_logo" />
+                                <img className="h-24 w-auto object-center" src="timeline1.png" alt="timeline_logo" />
                             </div>
                         </div>
                         <div className="p-4 md:w-1/3 sm:w-full">
