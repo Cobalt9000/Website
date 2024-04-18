@@ -46,6 +46,8 @@ import image35 from "./images/IMG_6012.JPG";
 import image36 from "./images/IMG_9807.JPG";
 import Timeline from "./Components/Timeline.js";
 import './App.css';
+import Mentors from './Components/Mentors.js';
+import Judges from './Components/judges.js';
 
 function App() {
     const images = [
@@ -115,12 +117,50 @@ function App() {
                         alignItems: 'center',
                     }} 
                 >
+                </div>
+
+                <div className='glimpse'>
                     <h1>Glimpse of Aventus</h1>
                 </div>
                 
                 <div style={{padding: "20px"}}>
                     <Glimpse images={images} />
                 </div>
+
+                <div  className = "judges"
+                style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                    }} 
+                >
+                </div>
+
+                <div className='judges'>
+                    <h1>Judges</h1>
+                </div>
+                
+                <div style={{padding: "20px"}}>
+                    <Judges images={images} />
+                </div>
+                <div  className = "mentors"
+                style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                    }} 
+                >
+                </div>
+
+                <div className='mentors'>
+                    <h1>Mentors</h1>
+                </div>
+                
+                <div style={{padding: "20px"}}>
+                    <Mentors images={images} />
+                </div>
+                
+
                 <Footer />
             </div>
             

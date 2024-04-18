@@ -26,7 +26,7 @@ function FAQ() {
             </details>
             <details className="w-full border rounded-lg">
               <summary className="px-4 py-6 focus:outline-none">Are there any specific technology requirements for the hackathon?</summary>
-              <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-300">We have four main tracks - GEN AI, Cyber Intelligence, Web 3.0, and Hardware & IoT. You can choose to build a project using any technology within these tracks. You are required to carry all sorts of hardware/software requirements to acheive your project goals.</p>
+              <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-300">We have four main tracks - GEN AI, Cyber Intelligence, Web 3.0, and AR & VR. You can choose to build a project using any technology within these tracks. You are required to carry all sorts of hardware/software requirements to acheive your project goals.</p>
             </details>
             <details className="w-full border rounded-lg">
               <summary className="px-4 py-6 focus:outline-none">Will meals and refreshments be provided during the event?</summary>

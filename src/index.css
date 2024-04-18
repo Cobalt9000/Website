@@ -90,6 +90,15 @@ html {
 	transition: all 0.3s;
 }
 
+.slick-slide > div {
+	margin: 0 10px;
+  }
+  
+  .slick-dots li.slick-active button:before {
+	color:orange !important;
+  }
+  
+
 @media only screen and (max-width: 640px) {
 	#root {
 		margin: .45rem;

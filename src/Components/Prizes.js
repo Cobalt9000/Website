@@ -5,16 +5,23 @@ function Prizes() {
     return (
         <section className="prizes w-full max-w-3xl m-auto text-gray-100" id="Prizes">
             <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
+            <div class="lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
                 <h2 className="text-2xl font-semibold sm:text-4xl pb-5">Prize Money</h2>
                 <div className="prize-list">
-                    <div className="prize-item">
+                    {/* <div className="prize-item">
                         <h3 className="prize-title">Grand Prize:</h3>
                         <p className="prize-amount">To Be Announced </p>
                     </div>
                     <div className="prize-item">
                         <h3 className="prize-title">Runners up:</h3>
                         <p className="prize-amount">To Be Announced </p>
-                    </div>
+                    </div> */}
                     <div className="prize-item">
                         <h3 className="prize-title">Track prizes:</h3>
                         <p className="prize-amount">To Be Announced </p>

@@ -12,3 +12,15 @@
         padding-right: 1rem;
     }
 }
+
+@media only screen and (max-width: 640px) {
+    .image-slider img {
+      max-height: 30vh; /* Reduce the maximum height of the images on smaller screens */
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .image-slider img {
+      max-height: 30vh; /* Further reduce the maximum height for even smaller screens */
+    }
+  }

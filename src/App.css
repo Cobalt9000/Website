@@ -1,48 +1,23 @@
-.carousel-container {
-    max-width: 800px; /* Adjust this value as per your desired maximum width */
-    margin: 0 auto; /* Center the carousel horizontally */
-  }
-  
-  .carousel-slide {
-    display: flex;
-    justify-content: center;
+
+.glimpse h1 {
+    color: green;
+    font-size:2rem;
     align-items: center;
-    height: 400px; /* Adjust this value as per your desired height */
-  }
-  
-  .carousel-image {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain; /* This will maintain the aspect ratio of the image */
-    width: auto;
-    height: auto;
+    text-align: center;
+    margin-top: 150px;
   }
 
-  h1 {
-    color:#fff;
-    font-size:3rem;
-  }
+  .mentors h1 {
+    color: lightskyblue;
+    font-size:2rem;
+    text-align: center;
+    margin-top: 200px;
 
-  @media (max-width: 640px) {
-    .carousel-container {
-      max-width: 80%; /* Reduce the maximum width on smaller screens */
-    }
-  
-    .carousel-slide {
-      height: 300px; /* Reduce the height of the slide on smaller screens */
-    }
-    h1 {
-      font-size: 2rem; /* Reduce the font size of the heading on very small screens */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .carousel-slide {
-      height: 200px; /* Further reduce the height of the slide on very small screens */
-    }
-  
-    h1 {
-      font-size: 2rem; /* Reduce the font size of the heading on very small screens */
-    }
-  }
-  
+}
+
+.judges h1 {
+  color: lightgreen;
+  font-size:2rem;
+  text-align: center;
+
+}

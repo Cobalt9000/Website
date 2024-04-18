@@ -37,7 +37,7 @@ export default function About() {
                         <h1>About Aventus 2.0</h1>
                         <p>Welcome to Aventus, a 24-hour hackathon hosted by Department of Artificial Intelligence & Machine Learning, Dayananda Sagar College of Engineering, in collaboration with our esteemed club Code4Thought. </p>
                         <p>Set to take place on the 18th and 19th of May, this offline event aims to bring together a diverse group of college students to create groundbreaking solutions and drive progress in technology and society.</p>
-                        <p>With four exciting tracks to choose from—Cyber Intelligence, Gen AI, Web 3.0 and Hardware & IoT—participants will have the opportunity to collaborate, learn, and showcase their skills in front of potential sponsors and employers.</p>
+                        <p>With four exciting tracks to choose from—Cyber Intelligence, Gen AI, Web 3.0 and AR/VR will have the opportunity to collaborate, learn, and showcase their skills in front of potential sponsors and employers.</p>
                         <p>Join us at Aventus as we foster innovation, nurture talent, and redefine the future of technology together. Register now and be a part of this incredible journey!
                         </p>
                         <p>

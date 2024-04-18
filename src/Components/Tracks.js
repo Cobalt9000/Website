@@ -3,10 +3,18 @@ import AI from './brain.json'
 import Blockchain from './Blockchain.json'
 import TracksAnimation from './TracksAnimation'
 import OpenInnovation from './OpenInnovation.json'
+import "./css/tracks.css";
 import IOT from './IOT.json'
 function Tracks() {
   return (
     <div className='text-white w-full h-screen' data-section-name={"s-two"} id={"Tracks"}>
+      <div class="lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+      </div>
       <div className="w-full pt-16">
         <h1 className='container text-3xl py-10 mx-auto px-10 text-center pt-16'> Tracks</h1>
       </div>
@@ -32,7 +40,7 @@ function Tracks() {
           <div className="px-6" >
             <TracksAnimation animationData={IOT} />
             <div className="pt-6 text-center">
-              <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">IoT Industry 5.0</h1>
+              <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">AR & VR</h1>
             </div>
           </div>
         </div>
