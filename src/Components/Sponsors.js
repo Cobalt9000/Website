@@ -10,17 +10,17 @@ function Sponsors() {
                     <div className="flex flex-wrap -m-4">
                         <div className="p-4 md:w-1/3 sm:w-full">
                             <div className="flex items-center justify-center h-full">
-                                <img className="h-24 w-auto object-center" src="DEVlight.png" alt="sponsor_logo" />
+                                <img className="h-24 w-auto object-center" src="DEVlight.png" alt="“DEVFOLIO LOGO”" />
                             </div>
                         </div>
                         <div className="p-4 md:w-1/3 sm:w-full">
                             <div className="flex items-center justify-center h-full">
-                                <img className="h-24 w-auto object-center" src="DEvpolygon.png" alt="sponsor_logo" />
+                                <img className="h-24 w-auto object-center" src="DEvpolygon.png" alt="“POLYGON LOGO”" />
                             </div>
                         </div>
                         <div className="p-4 md:w-1/3 sm:w-full">
                             <div className="flex items-center justify-center h-full">
-                                <img className="h-24 w-auto object-center" src="Ethindia.png" alt="sponsor_logo" />
+                                <img className="h-24 w-auto object-center" src="Ethindia.png" alt="“ETHINDIA LOGO”" />
                             </div>
                         </div>
                     </div>
