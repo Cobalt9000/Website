@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function Landing() {
-  const [height, setHeight] = useState('100%');
+  // const [height, setHeight] = useState('100%');
   useEffect(() => {
       const script = document.createElement('script');
       script.src = 'https://apply.devfolio.co/v2/sdk.js';
@@ -73,6 +73,12 @@ function Landing() {
           <div className="edate">18th - 19th May 2024</div>
           <div className="eline">{"24 Hour Hackathon"}</div>
           <div className="devbtn">
+            <div class="apply-button" 
+	            data-hackathon-slug="aventus-2-0" 
+	            data-button-theme="dark"
+	            style={{display:"flex", flexDirection:"column", zIndex:100}}
+              >
+            </div> 
             <a href=''>
               <button className="dbtn">
               <p>Register Now</p>
@@ -81,7 +87,9 @@ function Landing() {
                 <path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"></path>
               </svg> */}
             </button>
+                 
             </a>
+            
             <a href=''>
               <button className="timeline">
               <p>Timeline</p>
@@ -90,12 +98,10 @@ function Landing() {
             <div className="p-10" style={{display:"flex", flexDirection:"column", zIndex:100}}>
               {/* <div
                   className="apply-button"
-                  data-hackathon-slug="aventus"
+                  data-hackathon-slug="aventus-2-0"
                   data-button-theme="dark"
               ></div> */}
             </div>
-
-
           </div>
         </div>
         <div className="lright">
