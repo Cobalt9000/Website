@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import FAQ from './Components/FAQ';
 import Footer from './Components/Footer';
 import Landing from './Components/Landing';
@@ -44,10 +44,11 @@ import image33 from "./images/IMG_5941.JPG";
 import image34 from "./images/IMG_5997.JPG";
 import image35 from "./images/IMG_6012.JPG";
 import image36 from "./images/IMG_9807.JPG";
-import Timeline from "./Components/Timeline.js";
 import './App.css';
 import Mentors from './Components/Mentors.js';
 import Judges from './Components/judges.js';
+import Timeline from './Components/Timeline1.js';
+
 
 function App() {
     const images = [
@@ -107,6 +108,7 @@ function App() {
                     <FAQ />
                     <Sponsors />
                     <Timeline />
+                    
                     
                     
                 </div>

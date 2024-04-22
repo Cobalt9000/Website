@@ -1,10 +1,10 @@
 import React from 'react'
 import AI from './brain.json'
-import Blockchain from './Blockchain.json'
+import Cybersecurity from './OpenInnovation.json'
 import TracksAnimation from './TracksAnimation'
-import OpenInnovation from './OpenInnovation.json'
+import Web3 from './Blockchain.json'
 import "./css/tracks.css";
-import IOT from './IOT.json'
+import ARVR from './IOT.json'
 function Tracks() {
   return (
     <div className='text-white w-full h-screen' data-section-name={"s-two"} id={"Tracks"}>
@@ -29,7 +29,7 @@ function Tracks() {
         </div>
         <div className="flex w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" >
           <div className="px-6" >
-            <TracksAnimation animationData={Blockchain} />
+            <TracksAnimation animationData={Web3} />
             <div className="pt-6 text-center">
               <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">Web 3.0</h1>
 
@@ -38,7 +38,7 @@ function Tracks() {
         </div>
         <div className="flex w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" >
           <div className="px-6" >
-            <TracksAnimation animationData={IOT} />
+            <TracksAnimation animationData={ARVR} />
             <div className="pt-6 text-center">
               <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">AR & VR</h1>
             </div>
@@ -46,7 +46,7 @@ function Tracks() {
         </div>
         <div className="flex w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
           <div className="px-6">
-            <TracksAnimation animationData={OpenInnovation} />
+            <TracksAnimation animationData={Cybersecurity} />
             <div className="pt-6 text-center">
               <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">Cyber Intelligence</h1>
             </div>
