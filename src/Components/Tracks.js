@@ -1,5 +1,5 @@
 import React from 'react'
-import AI from './brain.json'
+import AI from './AI & ML.mp4.lottie.json'
 import Cybersecurity from './OpenInnovation.json'
 import TracksAnimation from './TracksAnimation'
 import Web3 from './Blockchain.json'

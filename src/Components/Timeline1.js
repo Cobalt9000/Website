@@ -6,7 +6,7 @@ function Timeline() {
 
 
     return (
-        <div className='timebody'>
+        <div className='timebody' id="Timeline">
             <div className="timeline_head">TIMELINE</div>
             <div className="maintimeline">
 
@@ -15,7 +15,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-right" className="text-box lt" >
                         <h2><b>Problem Statement</b></h2>
-                        <small>22nd April</small>
+                        <small>23rd April</small>
                         <p>Problem Statement displayed on the website.</p>
                         <span className='left-container-arrow'></span>
                     </div>

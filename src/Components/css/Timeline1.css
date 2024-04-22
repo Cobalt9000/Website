@@ -1,5 +1,5 @@
 .timebody{
-    background-color: rgba(0, 0, 0, 0.953);
+    background-color: #101010;
     padding: 50px 0;
     background-position: 50% 50%;
     background-attachment: fixed,scroll;
@@ -189,7 +189,7 @@ box-shadow: 0 0 0 3px rgb(2, 148, 2),inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px r
 
 @media(max-width:460px){
     .timebody{
-        background-color: rgba(0, 0, 0, 0.959);
+        background-color:#101010;
     }
     .text-box{
         font-size: 14px;

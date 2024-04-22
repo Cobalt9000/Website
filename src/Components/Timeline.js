@@ -3,7 +3,7 @@ import "./css/timeline.css"
 
 function timeline() {
     return (
-        <div className="w-full" data-section-name={"s-four"} id={"timeline"} style={{ marginTop: '2rem' }}>
+        <div className="w-full" data-section-name={"s-five"} id="Timeline" style={{ marginTop: '2rem' }}>
             <section className="text-gray-600 body-font h-full pt-10 w-full timeline">
                 <div className="container text-4xl mx-auto w-full text-center text-white">timeline</div>
                 <div className="container px-5 py-8 mx-auto">
