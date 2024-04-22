@@ -47,7 +47,7 @@ import image36 from "./images/IMG_9807.JPG";
 import './App.css';
 import Mentors from './Components/Mentors.js';
 import Judges from './Components/judges.js';
-import Timeline from './Components/Timeline1.js';
+import Timeline from './Components/Timeline.js';
 
 
 function App() {
