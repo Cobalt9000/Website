@@ -82,7 +82,7 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
-                        <h2><b>Offline Hackathon Day-2</b></h2>
+                        <h2><b>Hackathon Day-2</b></h2>
                         <small>19th May</small>
                         <p>Results of the hackathon and price distribution.</p>
                         <span className='left-container-arrow'></span>

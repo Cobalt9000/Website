@@ -40,7 +40,7 @@
     flex-direction: column;
     padding: 15px;
     text-align: justify;
-    background:rgb(2, 148, 2) ;
+    background:rgb(83, 85, 83);
     position: relative;
     border-radius: 4px;
     font-size: 16px;
@@ -78,17 +78,17 @@
     right: -23px;
     top: 32px;
     z-index: 2;
-    background-color:rgb(7, 211, 37);
-    border: solid 5px rgb(2, 149, 29);
+    background-color:rgb(5, 210, 36);
+    border: solid 5px #101010;
 }
 .left-container .timelineimgdiv{
-    box-shadow: 0 0 0 3px rgb(2, 149, 29),inset 0 2px 0 rgb(30, 139, 0),0 3px 0 4px rgba(0,0,0,.05);
+    box-shadow: 0 0 0 3px rgb(2, 149, 29),inset 0 2px 0 rgb(29, 126, 12),0 3px 0 4px rgb(20, 73, 1);
 }
 .right-container .timelineimgdiv{
 left: -23px;
 background-color:rgb(5, 210, 36);
-border: solid 5px black;
-box-shadow: 0 0 0 3px rgb(2, 148, 2),inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05);
+border: solid 5px #101010;
+box-shadow: 0 0 0 3px rgb(2, 149, 29),inset 0 2px 0 rgb(29, 126, 12),0 3px 0 4px rgb(20, 73, 1);
 }
 
 .maintimeline::after{
@@ -132,7 +132,7 @@ box-shadow: 0 0 0 3px rgb(2, 148, 2),inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px r
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid rgb(5, 210, 36);
+    border-right: 15px solid rgb(83, 85, 83);
     left: -12px;
 }
 
@@ -169,19 +169,19 @@ box-shadow: 0 0 0 3px rgb(2, 148, 2),inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px r
         width: 30px;
     }
 
-    .left-container-arrow, .right-container-arrow{
-        border-right:15px solid rgb(5, 210, 36);
+    .right-container-arrow{
+        border-right:15px solid rgb(83, 85, 83);
         border-left: 0;
         left: -12px;
     }
     .left-container-arrow{
-        border-right:15px solid rgb(2, 149, 29) ;
+        border-right:15px solid rgb(2, 149, 29);
     }
 }
 
 .lt{
     background-color: rgb(2, 149, 29);
-    border-bottom: solid 6px rgb(5, 210, 36);
+    border-bottom: solid 6px rgb(83, 85, 83);
 }
 .rt{
     border-bottom: solid 6px rgb(2, 149, 29)

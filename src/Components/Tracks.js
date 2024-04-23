@@ -1,5 +1,5 @@
 import React from 'react'
-import AI from './AI & ML.mp4.lottie.json'
+import AI from './brain.json'
 import Cybersecurity from './OpenInnovation.json'
 import TracksAnimation from './TracksAnimation'
 import Web3 from './Blockchain.json'
@@ -23,7 +23,7 @@ function Tracks() {
           <div className="px-6" >
             <TracksAnimation animationData={AI} />
             <div className="pt-6 text-center" >
-              <h1 className="text-gray-100 text-xl leading-normal mt-0 mb-2">Gen AI</h1>
+              <h1 className="text-gray-100 text-xl leading-normal mt-0 mb-2">AI & ML</h1>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ function Tracks() {
           <div className="px-6" >
             <TracksAnimation animationData={ARVR} />
             <div className="pt-6 text-center">
-              <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">AR & VR</h1>
+              <h1 className="text-gray-100 text-xl   leading-normal mt-0 mb-2">Game & AR/VR</h1>
             </div>
           </div>
         </div>

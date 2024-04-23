@@ -95,6 +95,7 @@ function App() {
             <div className="conta">
                 <Landing />
                 <About />
+                
                 <Tracks />
                 
                 <Prizes />
