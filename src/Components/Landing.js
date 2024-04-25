@@ -92,7 +92,7 @@ function Landing() {
             
             <a href=''>
               <button className="timeline">
-              <p>Timeline</p>
+              <p>Download Brochure</p>
             </button>
             </a>
             <div className="p-10" style={{ display: "flex", flexDirection: "column", zIndex: 100 }}>
