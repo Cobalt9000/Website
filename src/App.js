@@ -110,6 +110,12 @@ function App() {
                     <FAQ />
                     <Sponsors />
                     <Timeline />
+                    <div className='timeline'>
+                    
+                    <h6>*Timeline is subject to change/tentative</h6>
+
+                    </div>
+                    
                     
                     
                     
