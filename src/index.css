@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+	scroll-behavior: smooth;
+}
+
 .conta::-webkit-scrollbar {
 	display: none;
 }

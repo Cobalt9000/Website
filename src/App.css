@@ -6,6 +6,15 @@
   text-align: center;
   margin-top: 150px;
 }
+
+.timeline h6 {
+  color: lightgreen;
+  font-size:1rem;
+  text-align: left;
+  margin-top: 20px;
+
+}
+
 .glimpse h1 {
     color: #fff;
     font-size:2rem;

@@ -5,29 +5,28 @@ function Footer() {
 
 
   React.useEffect(() => {
+    const container = document.getElementById('effect');
+    container.style.width = '100vw'; // Set the width to 100% of the viewport width
+    container.style.height = '105vh'; // Set the height to 100% of the viewport height
+  
     const bg = swarmBackground({
-      el: document.getElementById('effect'),
-      eventsEl: document.getElementById('effect'),
+      el: container,
+      eventsEl: container,
       gpgpuSize: 100,
       color: [0x00a69e, 0x00a69e],
-      geometry: 'default'
-    })
-    
-    bg.setColors([0x00a69e, 0x00ff51])
-    bg.three.camera.position.set(0, 0, 250)
-    
-    let ele = document.querySelectorAll('canvas')
+      geometry: 'default',
+    });
+  
+    bg.setColors([0x00a69e, 0x00ff51]);
+    bg.three.camera.position.set(0, 0, 200);
+  
+    let ele = document.querySelectorAll('canvas');
     if (ele.length > 1) {
-      
       if (ele[0] !== undefined) {
-        ele[0].style.display = "none"
+        ele[0].style.display = "none";
       }
     }
-    // ele.forEach((e) => {
-    //   e.style.borderRadius = "20px"
-    // })
-    
-  }, [])
+  }, []);
 
 
   
