@@ -1,8 +1,35 @@
 import React from 'react';
 import './css/Timeline1.css'
 
+import { swarmBackground } from 'threejs-toys'
+
 
 function Timeline() {
+
+    React.useEffect(() => {
+        const bg = swarmBackground({
+          el: document.getElementById('effect'),
+          eventsEl: document.getElementById('effect'),
+          gpgpuSize: 128,
+          color: [0x00a69e, 0x00a69e],
+          geometry: 'default'
+        })
+        
+        bg.setColors([0x00a69e, 0x00ff51])
+        bg.three.camera.position.set(0, 0, 250)
+        
+        let ele = document.querySelectorAll('canvas')
+        if (ele.length > 1) {
+          
+          if (ele[0] !== undefined) {
+            ele[0].style.display = "none"
+          }
+        }
+        // ele.forEach((e) => {
+        //   e.style.borderRadius = "20px"
+        // })
+        
+      }, [])
 
 
     return (
@@ -15,7 +42,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-right" className="text-box lt" >
                         <h2><b>Problem Statement</b></h2>
-                        <small>23rd April</small>
+                        <small>25th April</small>
                         <p>Problem Statement displayed on the website.</p>
                         <span className='left-container-arrow'></span>
                     </div>
@@ -26,8 +53,8 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Idea Submissions</b></h2>
-                        <small>24th April</small>
-                        <p>idea submissions will be open from 24th of april.</p>
+                        <small>26th April</small>
+                        <p>idea submissions link will be open from 26th of april.</p>
                         <span className='right-container-arrow'></span>
                     </div>
                 </div>

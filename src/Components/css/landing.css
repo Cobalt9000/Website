@@ -44,8 +44,19 @@
 }
 
 .ename {
-    font-size: 5.1rem;
-    font-weight: bolder;
+    font-size: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    line-height: 5rem;
+    letter-spacing: 2px;
+}
+.ename div{
+    margin: 0;
+    padding: 0;
+}
+.name_two{
+    font-size: 5rem;
 }
 
 .etagline {
@@ -116,10 +127,10 @@
 }
 
 .devbtn button {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     display: flex;
     align-self: auto;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     width: 20rem;
     text-align: center;
     align-items: center;
@@ -236,6 +247,15 @@
     /* font-weight: bold */
 }
 
+.devbtn button{
+    margin: 0;
+}
+.devbtn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 @media only screen and (max-width: 640px) {
 
 
@@ -259,12 +279,17 @@
         font-size: 3rem;
         font-weight: bolder;
         text-align: center;
+        letter-spacing: 7px;
+        margin-bottom: 30px;
+    }
+    .name_two{
+        font-size: 4rem;
     }
 
     .etagline {
         font-size: medium;
         margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1.7rem;
     }
 
     .edate {

@@ -1,6 +1,13 @@
 
+.ps h1 {
+  color: #fff;
+  font-size:2rem;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+}
 .glimpse h1 {
-    color: green;
+    color: #fff;
     font-size:2rem;
     align-items: center;
     text-align: center;
@@ -8,7 +15,7 @@
   }
 
   .mentors h1 {
-    color: lightskyblue;
+    color: #fff;
     font-size:2rem;
     text-align: center;
     margin-top: 200px;
@@ -17,7 +24,7 @@
 
 .judges h1 {
   margin-top: 200px;
-  color: green;
+  color: #fff;
   font-size:2rem;
   text-align: center;
 

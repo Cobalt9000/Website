@@ -48,6 +48,7 @@ import './App.css';
 import Mentors from './Components/Mentors.js';
 import Judges from './Components/judges.js';
 import Timeline from './Components/Timeline.js';
+import ProblemStatement from './Components/Problemstate.js';
 
 
 function App() {
@@ -112,6 +113,12 @@ function App() {
                     
                     
                     
+                </div>
+                <div className='ps'>
+                    <h1>Problem Statements</h1>
+                </div>
+                <div className='ps1'>
+                    <ProblemStatement />
                 </div>
                 <div  className = "glimpse"
                 style={{

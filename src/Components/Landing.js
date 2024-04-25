@@ -67,19 +67,19 @@ function Landing() {
       </div>
       <div className="lcontent">
         <div className="lleft">
-          <div className="ename">Aventus 2.0</div>
+          <div className="ename"><div>AVENTUS</div><div className='name_two'>2.0</div></div>
           <div className="etagline">where technology flourishes</div>
           <div className="etagline">#wtf</div>
           <div className="edate">18th - 19th May 2024</div>
           <div className="eline">{"24 Hour Hackathon"}</div>
           <div className="devbtn">
-            <div class="apply-button" 
-	            data-hackathon-slug="aventus-2-0" 
-	            data-button-theme="dark"
-	            style={{display:"flex", flexDirection:"column", zIndex: 100}}
+            <div class="apply-button"
+              data-hackathon-slug="aventus-2-0"
+              data-button-theme="dark"
+              style={{ display: "flex", flexDirection: "column", zIndex: 100 }}
             >
-            </div> 
-            <a href=''>
+            </div>
+            <a href='https://aventus-2-0.devfolio.co/'>
               <button className="dbtn">
               <p>Register Now</p>
               {/* <svg className="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 115.46 123.46" style={{ "height": "24px", "width": "24px", "marginRight": "8px" }}>
@@ -95,7 +95,7 @@ function Landing() {
               <p>Timeline</p>
             </button>
             </a>
-            <div className="p-10" style={{display:"flex", flexDirection:"column", zIndex:100}}>
+            <div className="p-10" style={{ display: "flex", flexDirection: "column", zIndex: 100 }}>
               {/* <div
                   className="apply-button"
                   data-hackathon-slug="aventus-2-0"

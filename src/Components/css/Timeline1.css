@@ -1,5 +1,5 @@
 .timebody{
-    background-color: #101010;
+    background-color: "none";
     padding: 50px 0;
     background-position: 50% 50%;
     background-attachment: fixed,scroll;
@@ -120,7 +120,7 @@ box-shadow: 0 0 0 3px rgb(2, 149, 29),inset 0 2px 0 rgb(29, 126, 12),0 3px 0 4px
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid rgb(2, 149, 29);
+    border-left: 15px solid green;
     right: -12px;
 }
 
@@ -175,21 +175,21 @@ box-shadow: 0 0 0 3px rgb(2, 149, 29),inset 0 2px 0 rgb(29, 126, 12),0 3px 0 4px
         left: -12px;
     }
     .left-container-arrow{
-        border-right:15px solid rgb(2, 149, 29);
+        border-right:15px solid green;
     }
 }
 
 .lt{
-    background-color: rgb(2, 149, 29);
-    border-bottom: solid 6px rgb(83, 85, 83);
+    background-color: green;
+    border-bottom: solid 6px rgba(12, 51, 1, 0.853);
 }
 .rt{
-    border-bottom: solid 6px rgb(2, 149, 29)
+    border-bottom: solid 6px rgb(2, 149, 29);
 }
 
 @media(max-width:460px){
     .timebody{
-        background-color:#101010;
+        background-color: "none";
     }
     .text-box{
         font-size: 14px;
@@ -202,7 +202,7 @@ box-shadow: 0 0 0 3px rgb(2, 149, 29),inset 0 2px 0 rgb(29, 126, 12),0 3px 0 4px
         text-align: left;
         margin-left: 20px;
         font-size: 28px;
-        color: rgb(5, 210, 36);
+        color: #fff;
         border-bottom:solid 2px rgb(2, 149, 29);
         margin-bottom: 0;
     }
