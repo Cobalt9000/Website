@@ -7,7 +7,7 @@ function Footer() {
   React.useEffect(() => {
     const container = document.getElementById('effect');
     container.style.width = '100vw'; // Set the width to 100% of the viewport width
-    container.style.height = '105vh'; // Set the height to 100% of the viewport height
+    container.style.height = '123%'; // Set the height to 100% of the viewport height
   
     const bg = swarmBackground({
       el: container,
@@ -18,7 +18,7 @@ function Footer() {
     });
   
     bg.setColors([0x00a69e, 0x00ff51]);
-    bg.three.camera.position.set(0, 0, 200);
+    bg.three.camera.position.set(0, 0, 250);
   
     let ele = document.querySelectorAll('canvas');
     if (ele.length > 1) {

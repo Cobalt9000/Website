@@ -32,9 +32,12 @@ import Mentors from './Components/Mentors.js';
 import Judges from './Components/judges.js';
 import Timeline from './Components/Timeline.js';
 import ProblemStatement from './Components/Problemstate.js';
+import Map from './Components/map.js';
+import { swarmBackground } from 'threejs-toys'
 
 
 function App() {
+
     const images = [
         image1,
         image2,
@@ -56,6 +59,32 @@ function App() {
         image18,
         image19,
     ];
+
+    useEffect(() => {
+        const bg = swarmBackground({
+          el: document.getElementById('effect'),
+          eventsEl: document.getElementById('effect'),
+          gpgpuSize: 128,
+          color: [0x00a69e, 0x00a69e],
+          geometry: 'default'
+        })
+        
+        bg.setColors([0x00a69e, 0x00ff51])
+        bg.three.camera.position.set(0, 0, 250)
+        
+        let ele = document.querySelectorAll('canvas')
+        if (ele.length > 1) {
+          
+          if (ele[0] !== undefined) {
+            ele[0].style.display = "none"
+          }
+        }
+        ele.forEach((e) => {
+          e.style.borderRadius = "20px"
+        })
+        
+      }, [])
+
     return (
         <>
             <Nav />
@@ -141,10 +170,20 @@ function App() {
                 <div style={{padding: "20px"}}>
                     <Mentors images={images} />
                 </div>
+
+                <div className='maps'>
+                    <h1>The Venue</h1>
+                </div>
+
+                <div className='map'>
+                    <Map />
+                </div>
                 
 
                 <Footer />
             </div>
+
+
             
         </>
     );

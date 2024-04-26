@@ -38,6 +38,29 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      const nestedModal = document.querySelector('.nested-modal');
+      const closeBtn = document.querySelector('.close');
+    
+      // Open the nested modal when the "Find out more" link is clicked
+      const findOutMoreLink = document.querySelector('.action');
+      findOutMoreLink.addEventListener('click', (e) => {
+        e.preventDefault(); // Prevent the default link behavior
+        nestedModal.style.display = 'block';
+      });
+    
+      // Close the nested modal when the close button is clicked
+      closeBtn.addEventListener('click', () => {
+        nestedModal.style.display = 'none';
+      });
+    
+      // Close the nested modal when clicking outside the modal
+      window.addEventListener('click', (event) => {
+        if (event.target == nestedModal) {
+          nestedModal.style.display = 'none';
+        }
+      });
+    </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>

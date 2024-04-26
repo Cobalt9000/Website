@@ -5,7 +5,8 @@ const Card = () => {
   return (
     <div className="parent">
     <div className="card">
-      <div className="image"></div>
+      <div className="image">
+      </div>
       <div className="content">
         <a href="#">
           <span className="title">
@@ -17,7 +18,7 @@ const Card = () => {
         Algorithmic Underwriting for Insurance with Generative AI in
         Banking, Financial Services, and Insurance. ( B F S I )
         </p>
-        <a className="action" href="#">
+        <a className="action" href= "#" >
           Find out more
           <span aria-hidden="true">→</span>
         </a>
