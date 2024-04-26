@@ -102,7 +102,7 @@ function App() {
                         alignItems: 'center',
                     }}
                 >
-                    <FAQ />
+                    
                     <Sponsors />
                     <Timeline />
                     <div className='timeline'>
@@ -179,6 +179,7 @@ function App() {
                     <Map />
                 </div>
                 
+                <FAQ />
 
                 <Footer />
             </div>
