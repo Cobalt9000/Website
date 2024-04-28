@@ -12,24 +12,25 @@ function Prizes() {
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
-                <h2 className="text-2xl font-semibold sm:text-4xl pb-5">Prize Money</h2>
+                <h1 className="text-2xl font-semibold sm:text-4xl pb-5">Prize Money</h1>
                 <div className="prize-list">
-                    {/* <div className="prize-item">
+                    <div className="prize-item">
                         <h3 className="prize-title">Grand Prize:</h3>
-                        <p className="prize-amount">To Be Announced </p>
+                        <p className="prize-amount">Rs 20,000 </p>
                     </div>
                     <div className="prize-item">
                         <h3 className="prize-title">Runners up:</h3>
-                        <p className="prize-amount">To Be Announced </p>
-                    </div> */}
+                        <p className="prize-amount">Rs 15,000 </p>
+                    </div>
                     <div className="prize-item">
                         <h3 className="prize-title">Track prizes:</h3>
-                        <p className="prize-amount">To Be Announced </p>
+                        <p className="prize-amount">Rs 10,000 </p>
                     </div>
                 </div>
                 <div className="sponsor-prize">
                     <h3 className="sponsor-prize-title">Additional Prizes:</h3>
-                    <p className="sponsor-prize-details">Platform access to the cloud platform, and a chance to win prizes from sponsors of the event.</p>
+                    <p className="sponsor-prize-details"> The team with the best solution per track will receive 1-year .xyz domain names 
+                    and also the participants will have a chance of getting seed funding and incubation from Derbi Foundation.</p>
                 </div>
             </div>
         </section>

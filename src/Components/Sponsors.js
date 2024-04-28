@@ -64,6 +64,23 @@ function Sponsors() {
                         </div>
                         <div className="p-4 md:w-1/3 sm:w-full">
                             <div className="flex items-center justify-center h-full">
+                            <img className="h-24 w-auto object-center" src="xyz.webp" alt="sponsor_logo" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex flex-wrap -m-4">
+                        <div className="p-4 md:w-1/3 sm:w-full">
+                            <div className="flex items-center justify-center h-full">
+                            {/* Add another image if needed */}
+                            </div>
+                        </div>
+                        <div className="p-4 md:w-1/3 sm:w-full">
+                            <div className="flex items-center justify-center h-full">
+                                <img className="h-24 w-auto object-center" src="Derbi.webp" alt="sponsor_logo" />
+                            </div>
+                        </div>
+                        <div className="p-4 md:w-1/3 sm:w-full">
+                            <div className="flex items-center justify-center h-full">
                                 {/* Add another image if needed */}
                             </div>
                         </div>
