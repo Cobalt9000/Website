@@ -116,9 +116,6 @@ function App() {
                     
                 </div>
                 <div className='ps'>
-                    <h1>Problem Statements</h1>
-                </div>
-                <div className='ps1'>
                     <ProblemStatement />
                 </div>
                 <div  className = "glimpse"
