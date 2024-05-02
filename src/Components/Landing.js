@@ -90,7 +90,7 @@ function Landing() {
                  
             </a>
             
-            <a href='https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/F9li96iGH2Orxx7BugsEfaCalUJ8aaVCY30PCU1-a6oPrvv76giOo5H4t-9ZnV0w/n/axllowusnmeq/b/Aventus/o/brochureAventus%20Brochure.pdf'>
+            <a href='https://axllowusnmeq.objectstorage.ap-hyderabad-1.oci.customer-oci.com/p/jwWLgv1iGm7rW7SyY8yMxG4RO-bPtmli7RCKw49FU6p1QfV4MGueiHypSSubihdy/n/axllowusnmeq/b/Aventus/o/Aventus%20Brochure.pdf'>
               <button className="timeline">
               <p>Download Brochure</p>
             </button>
