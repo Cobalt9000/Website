@@ -29,7 +29,7 @@ function Sponsors() {
                     <div className="flex flex-wrap -m-4">
                         <div className="p-4 md:w-1/3 sm:w-full">
                             <div className="flex items-center justify-center h-full">
-                            <img className="h-24 w-24 object-center rounded object-cover" src="sandlogic.png" alt="“SandLogic LOGO”" />
+                            <img className="h-24 w-24 object-center rounded object-cover" src="Sandlogic.png" alt="“SandLogic LOGO”" />
                             </div>
                         </div>
                         <div className="p-4 md:w-1/3 sm:w-full">
@@ -46,7 +46,7 @@ function Sponsors() {
                     <div className="flex flex-wrap -m-4">
                         <div className="p-4 md:w-1/3 sm:w-full">
                             <div className="flex items-center justify-center h-full">
-                            {/* Add another image if needed */}
+                            <img className="h-24 w-24 object-center rounded object-cover" src="Canam.png" alt="sponsor_logo" />
                             </div>
                         </div>
                         <div className="p-4 md:w-1/3 sm:w-full">
