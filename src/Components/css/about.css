@@ -137,6 +137,10 @@
     animation-delay: 5s;
 } */
 
+.line{
+    display: none;
+}
+
 @keyframes drop {
     0% {
         top: -50%;

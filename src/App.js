@@ -8,25 +8,22 @@ import Tracks from './Components/Tracks';
 import About from './Components/About';
 import Prizes from './Components/Prizes';
 import Glimpse from "./Components/Glimpse";
-import image1 from "./images/IMG_1272.jpeg";
-import image2 from "./images/IMG_1293.jpeg";
-import image3 from "./images/IMG_1299.jpeg";
-import image4 from "./images/IMG_1372.jpg";
-import image5 from "./images/IMG_1391.jpg";
-import image6 from "./images/IMG_1395.jpg";
-import image7 from "./images/IMG_1396.jpg";
-import image8 from "./images/IMG_1407.jpg";
-import image9 from "./images/IMG_1429.jpg";
-import image10 from "./images/IMG_1559.jpg";
-import image11 from "./images/IMG_1568.jpg";
-import image12 from "./images/DSC_0507.JPG";
-import image13 from "./images/IMG_9924.JPG";
-import image14 from "./images/IMG_1293.jpeg";
-import image15 from "./images/IMG_1299.jpeg";
-import image16 from "./images/IMG_5906.JPG";
-import image17 from "./images/IMG_5919.JPG";
-import image18 from "./images/IMG_5997.JPG";
-import image19 from "./images/IMG_6012.JPG";
+import image1 from "./images/1.png";
+import image2 from "./images/2.png";
+import image3 from "./images/3.png";
+import image4 from "./images/4.png";
+import image5 from "./images/5.png";
+import image6 from "./images/6.png";
+import image7 from "./images/7.png";
+import image8 from "./images/8.png";
+import image9 from "./images/9.png";
+import image10 from "./images/10.png";
+import image11 from "./images/11.png";
+import image12 from "./images/12.png";
+import image13 from "./images/13.png";
+import image14 from "./images/14.png";
+import image15 from "./images/15.png";
+import image16 from "./images/16.png";
 import './App.css';
 import Mentors from './Components/Mentors.js';
 import Judges from './Components/judges.js';
@@ -55,35 +52,35 @@ function App() {
         image14,
         image15,
         image16,
-        image17,
-        image18,
-        image19,
     ];
 
-    useEffect(() => {
+
+      React.useEffect(() => {
+        const container = document.getElementById('effect');
+        container.style.width = '100vw'; // Set the width to 100% of the viewport width
+        container.style.height = '110vh'; // Set the height to 100% of the viewport height
+      
         const bg = swarmBackground({
-          el: document.getElementById('effect'),
-          eventsEl: document.getElementById('effect'),
-          gpgpuSize: 128,
+          el: container,
+          eventsEl: container,
+          gpgpuSize: 100,
           color: [0x00a69e, 0x00a69e],
-          geometry: 'default'
-        })
-        
-        bg.setColors([0x00a69e, 0x00ff51])
-        bg.three.camera.position.set(0, 0, 250)
-        
-        let ele = document.querySelectorAll('canvas')
+          geometry: 'default',
+        });
+      
+        bg.setColors([0x00a69e, 0x00ff51]);
+        bg.three.camera.position.set(0, 0, 250);
+      
+        let ele = document.querySelectorAll('canvas');
         if (ele.length > 1) {
-          
           if (ele[0] !== undefined) {
-            ele[0].style.display = "none"
+            ele[0].style.display = "none";
           }
         }
         ele.forEach((e) => {
-          e.style.borderRadius = "20px"
+            e.style.borderRadius = "20px"
         })
-        
-      }, [])
+      }, []);
 
     return (
         <>
@@ -101,8 +98,7 @@ function App() {
                         flexDirection: 'column',
                         alignItems: 'center',
                     }}
-                >
-                    
+                >   
                     <Sponsors />
                     <Timeline />
                     <div className='timeline'>
@@ -168,9 +164,6 @@ function App() {
                     <Mentors images={images} />
                 </div>
 
-                <div className='maps'>
-                    <h1>The Venue</h1>
-                </div>
 
                 <div className='map'>
                     <Map />

@@ -5,33 +5,8 @@ import TracksAnimation from './TracksAnimation'
 import Web3 from './Blockchain.json'
 import "./css/tracks.css";
 import ARVR from './IOT.json'
-import { swarmBackground } from 'threejs-toys'
 function Tracks() {
 
-React.useEffect(() => {
-    const bg = swarmBackground({
-      el: document.getElementById('effect'),
-      eventsEl: document.getElementById('effect'),
-      gpgpuSize: 128,
-      color: [0x00a69e, 0x00a69e],
-      geometry: 'default'
-    })
-    
-    bg.setColors([0x00a69e, 0x00ff51])
-    bg.three.camera.position.set(0, 0, 250)
-    
-    let ele = document.querySelectorAll('canvas')
-    if (ele.length > 1) {
-      
-      if (ele[0] !== undefined) {
-        ele[0].style.display = "none"
-      }
-    }
-    // ele.forEach((e) => {
-    //   e.style.borderRadius = "20px"
-    // })
-    
-  }, [])
 
   return (
     <div className='text-white w-full h-screen' data-section-name={"s-two"} id={"Tracks"}>
@@ -42,6 +17,7 @@ React.useEffect(() => {
                 <div class="line"></div>
                 <div class="line"></div>
       </div>
+      <div className='tracks'>
       <div className="w-full pt-16">
         <h1 className='container text-3xl py-10 mx-auto px-10 text-center pt-16'> Tracks</h1>
       </div>
@@ -81,6 +57,9 @@ React.useEffect(() => {
         </div>
       </div>
     </div>
+
+      </div>
+      
   )
 }
 

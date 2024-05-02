@@ -1,5 +1,5 @@
 .image-slider {
-  width: auto;
+  width: 100%;
   margin: auto;
   text-align: center;
 }
@@ -9,10 +9,14 @@
 }
 
 .image-slider img {
-  max-width: 100%;
+  max-width: 97%;
   height: auto;
   max-height: 50vh;
   margin: auto;
+}
+
+.slick-arrow .slick-next{
+  width: 400px;
 }
 
 @media only screen and (max-width: 640px) {

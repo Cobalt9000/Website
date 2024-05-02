@@ -4,7 +4,7 @@ import NavItems from './NavItems';
 
 function Nav() {
 
-    const arr = ["About", "Tracks", "Prizes", "Sponsors", "FAQ" , "Timeline" , "Venue"];
+    const arr = ["About", "Tracks", "Problem-Statements", "FAQ" , "Timeline" , "Venue"];
     return (
         <div className='navbar'>
             <div className="topnav">

@@ -148,8 +148,11 @@ display: block;
 .sub-tab-contents{
 display: none;
 background-color: black;
-font-family: 'Nunito';
+font-family: 'Courier New', Courier, monospace;
 opacity: 0.8;
+margin-top: 20px;
+font-weight: 400;
+font-style: normal;
 margin-top: 20px;
 }
 

@@ -1,39 +1,14 @@
 import React from 'react';
 import './css/Timeline1.css'
 
-import { swarmBackground } from 'threejs-toys'
 
 
 function Timeline() {
 
-    React.useEffect(() => {
-        const bg = swarmBackground({
-          el: document.getElementById('effect'),
-          eventsEl: document.getElementById('effect'),
-          gpgpuSize: 128,
-          color: [0x00a69e, 0x00a69e],
-          geometry: 'default'
-        })
-        
-        bg.setColors([0x00a69e, 0x00ff51])
-        bg.three.camera.position.set(0, 0, 250)
-        
-        let ele = document.querySelectorAll('canvas')
-        if (ele.length > 1) {
-          
-          if (ele[0] !== undefined) {
-            ele[0].style.display = "none"
-          }
-        }
-        // ele.forEach((e) => {
-        //   e.style.borderRadius = "20px"
-        // })
-        
-      }, [])
-
 
     return (
-        <div className='timebody' id="Timeline">
+       
+        <div className='timebody' id={"Timeline"}>
             <div className="timeline_head">TIMELINE</div>
             <div className="maintimeline">
 
@@ -64,7 +39,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
                         <h2><b>Closing of Idea Submissions</b></h2>
-                        <small>5th May</small>
+                        <small>10th May</small>
                         <p>The submission link for the idea submission will be closed and the shortlisting/evaluation of the idea submissions will be begin.</p>
                         <span className='left-container-arrow'></span>
                     </div>
@@ -115,12 +90,10 @@ function Timeline() {
                         <span className='left-container-arrow'></span>
                     </div>
                 </div>
-
-
-
             </div>
-
         </div>
+    
+        
     )
 }
 

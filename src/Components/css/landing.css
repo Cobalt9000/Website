@@ -5,13 +5,14 @@
 
 #effect {
     width: 100%;
-    height: 100%;
+    height: 150%;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     position: absolute;
     touch-action: pan-up;
     pointer-events: none;
     z-index: -1;
+    overflow: hidden;
 }
 
 #effect::before {
@@ -213,6 +214,7 @@
     flex-direction: column;
     width: 60%;
     margin: auto;
+    margin-top: -40vh;
     justify-content: center;
     align-items: center;
     margin-top: 0rem;

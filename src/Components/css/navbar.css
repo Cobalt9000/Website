@@ -34,14 +34,15 @@
     flex-direction: row;
     justify-content: center;
     width: 150%;
+    justify-content: space-evenly;
 }
 
 
 .navele {
     margin: 0 0.5rem 0 0.5rem;
-    width: clamp(4rem, 8rem, 12rem);
     text-align: center;
     position: relative;
+    width: auto;
     /* padding: 0 .5rem 0 .5rem; */
 }
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./css/landing.css"
 import { useEffect } from 'react'
-import { swarmBackground } from 'threejs-toys'
+// import { swarmBackground } from 'threejs-toys'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
@@ -33,30 +33,30 @@ function Landing() {
     // console.log({divEffect});
     // }, [height] )
 
-    useEffect(() => {
-    const bg = swarmBackground({
-      el: document.getElementById('effect'),
-      eventsEl: document.getElementById('effect'),
-      gpgpuSize: 128,
-      color: [0x00a69e, 0x00a69e],
-      geometry: 'default'
-    })
+  //   useEffect(() => {
+  //   const bg = swarmBackground({
+  //     el: document.getElementById('effect'),
+  //     eventsEl: document.getElementById('effect'),
+  //     gpgpuSize: 128,
+  //     color: [0x00a69e, 0x00a69e],
+  //     geometry: 'default'
+  //   })
     
-    bg.setColors([0x00a69e, 0x00ff51])
-    bg.three.camera.position.set(0, 0, 250)
+  //   bg.setColors([0x00a69e, 0x00ff51])
+  //   bg.three.camera.position.set(0, 0, 250)
     
-    let ele = document.querySelectorAll('canvas')
-    if (ele.length > 1) {
+  //   let ele = document.querySelectorAll('canvas')
+  //   if (ele.length > 1) {
       
-      if (ele[0] !== undefined) {
-        ele[0].style.display = "none"
-      }
-    }
-    ele.forEach((e) => {
-      e.style.borderRadius = "20px"
-    })
+  //     if (ele[0] !== undefined) {
+  //       ele[0].style.display = "none"
+  //     }
+  //   }
+  //   ele.forEach((e) => {
+  //     e.style.borderRadius = "20px"
+  //   })
     
-  }, [])
+  // }, [])
   
   
 
