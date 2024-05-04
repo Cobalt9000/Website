@@ -15,6 +15,12 @@ function FAQ() {
               </div>
             </details>
             <details className="w-full border rounded-lg">
+              <summary className="px-4 py-6 focus:outline-none">What is the team size?</summary>
+              <div className='answer'>
+              <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-300"> The team size ranges from 2 members to a maximum of 4 members. Individual registrations may result in disqualification. All registered team members must be present at the offline hackathon event. </p>
+              </div>
+            </details>
+            <details className="w-full border rounded-lg">
               <summary className="px-4 py-6 focus:outline-none">Is this an online or offline hackathon?</summary>
               <div className='answer'>
               <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-300">Aventus Hackathon is an offline event, taking place at Dayananda Sagar College of Engineering.</p>
