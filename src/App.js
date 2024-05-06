@@ -86,12 +86,19 @@ function App() {
         <>
             <Nav />
             <div className="conta">
+                <div>
                 <Landing />
+                </div>
+                <div>
                 <About />
-                
+                </div>
+                <div>
                 <Tracks />
-                
+                </div>
+                <div>
                 <Prizes />
+                </div>
+                
                 <div
                     style={{
                         display: 'flex',
