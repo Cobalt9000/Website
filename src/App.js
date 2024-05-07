@@ -55,48 +55,48 @@ function App() {
     ];
 
 
-      React.useEffect(() => {
+    React.useEffect(() => {
         const container = document.getElementById('effect');
-        container.style.width = '100vw'; // Set the width to 100% of the viewport width
-        container.style.height = '110vh'; // Set the height to 100% of the viewport height
-      
+        // container.style.width = '100vw'; // Set the width to 100% of the viewport width
+        // container.style.height = '100vh'; // Set the height to 100% of the viewport height
+
         const bg = swarmBackground({
-          el: container,
-          eventsEl: container,
-          gpgpuSize: 100,
-          color: [0x00a69e, 0x00a69e],
-          geometry: 'default',
+            el: container,
+            eventsEl: container,
+            gpgpuSize: 100,
+            color: [0x00a69e, 0x00a69e],
+            geometry: 'default',
         });
-      
+
         bg.setColors([0x00a69e, 0x00ff51]);
         bg.three.camera.position.set(0, 0, 250);
       
         let ele = document.querySelectorAll('canvas');
         if (ele.length > 1) {
-          if (ele[0] !== undefined) {
-            ele[0].style.display = "none";
-          }
+            if (ele[0] !== undefined) {
+                ele[0].style.display = "none";
+            }
         }
         ele.forEach((e) => {
             e.style.borderRadius = "20px"
         })
-      }, []);
+    }, []);
 
     return (
         <>
             <Nav />
             <div className="conta">
                 <div>
-                <Landing />
+                    <Landing />
                 </div>
                 <div>
-                <About />
+                    <About />
                 </div>
                 <div>
-                <Tracks />
+                    <Tracks />
                 </div>
                 <div>
-                <Prizes />
+                    <Prizes />
                 </div>
                 
                 <div
@@ -105,28 +105,28 @@ function App() {
                         flexDirection: 'column',
                         alignItems: 'center',
                     }}
-                >   
+                >
+                <div>
                     <Sponsors />
+                </div>
+                <div>
                     <Timeline />
-                    <div className='timeline'>
-                    
-                    <h6>*Timeline is subject to change/tentative</h6>
+                </div>    
+                <div className='timeline'>
 
-                    </div>
-                    
-                    
-                    
-                    
+                <h6>*Timeline is subject to change/tentative</h6>
+                </div>
+    
                 </div>
                 <div className='ps'>
                     <ProblemStatement />
                 </div>
-                <div  className = "glimpse"
-                style={{
+                <div className="glimpse"
+                    style={{
                         display: 'flex',
                         flexDirection: 'column',
                         alignItems: 'center',
-                    }} 
+                    }}
                 >
                 </div>
 
@@ -134,32 +134,32 @@ function App() {
                     <h1>Glimpse of Aventus</h1>
                 </div>
                 
-                <div style={{padding: "20px"}}>
+                <div style={{ padding: "20px" }}>
                     <Glimpse images={images} />
                 </div>
 
-                <div  className = "judges"
-                style={{
+                <div className="judges"
+                    style={{
                         display: 'flex',
                         flexDirection: 'column',
                         alignItems: 'center',
-                    }} 
+                    }}
                 >
                 </div>
 
-                <div className='judges'>
+                <div className="judges">
                     <h1>Judges</h1>
                 </div>
                 
-                <div style={{padding: "20px"}}>
+                <div style={{ padding: "20px" }}>
                     <Judges images={images} />
                 </div>
-                <div  className = "mentors"
-                style={{
+                <div className="mentors"
+                    style={{
                         display: 'flex',
                         flexDirection: 'column',
                         alignItems: 'center',
-                    }} 
+                    }}
                 >
                 </div>
 
@@ -167,22 +167,19 @@ function App() {
                     <h1>Mentors</h1>
                 </div>
                 
-                <div style={{padding: "20px"}}>
+                <div style={{ padding: "20px" }}>
                     <Mentors images={images} />
                 </div>
-
-
                 <div className='map'>
                     <Map />
                 </div>
-                
-                <FAQ />
-
-                <Footer />
-            </div>
-
-
-            
+                <div>
+                    <FAQ />
+                </div>
+                <div>
+                    <Footer />
+                </div>
+            </div>  
         </>
     );
 }

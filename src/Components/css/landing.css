@@ -1,11 +1,11 @@
 #landing-main{
     color:white;
-    height: auto
+    min-height:100vh;
 }
 
 #effect {
     width: 100%;
-    height: 150%;
+    min-height: 90vh;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     position: absolute;
@@ -20,7 +20,7 @@
     position: absolute;
     /* Hidden by default */
     width: 100%;
-    height: 100%;
+    height: 100vh;
     top: 0;
     left: 0;
     right: 0;
@@ -32,6 +32,30 @@
     /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer;
     /* Add a pointer on hover */
+}
+@media(max-width:1214px){
+    #effect{
+        min-height: 120vh;
+    }
+    #effect::before{
+        min-height: 120vh;
+    }
+}
+@media(max-width:849px){
+    #effect{
+        min-height: 130vh;
+    }
+    #effect::before{
+        min-height: 130vh;
+    }
+}
+@media(max-width:500px){
+    #effect{
+        min-height: 150vh;
+    }
+    #effect::before{
+        min-height: 140vh;
+    }
 }
 
 .lcontent {

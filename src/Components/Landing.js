@@ -18,52 +18,12 @@ function Landing() {
     }
   }, []);
     
-    // useEffect(() => {
-    //   var landing_main = document.getElementById('landing-main');
-    //   if(landing_main.offsetHeight) {
-    //     setHeight(landing_main.offsetHeight);
-    
-    //   } else if(landing_main.style.pixelHeight) {
-    //       setHeight(landing_main.style.pixelHeight);
-      
-    //   }
-    // console.log({height});
-    // const divEffect = document.getElementById('effect');
-    // divEffect.style.height = height;
-    // console.log({divEffect});
-    // }, [height] )
 
-  //   useEffect(() => {
-  //   const bg = swarmBackground({
-  //     el: document.getElementById('effect'),
-  //     eventsEl: document.getElementById('effect'),
-  //     gpgpuSize: 128,
-  //     color: [0x00a69e, 0x00a69e],
-  //     geometry: 'default'
-  //   })
-    
-  //   bg.setColors([0x00a69e, 0x00ff51])
-  //   bg.three.camera.position.set(0, 0, 250)
-    
-  //   let ele = document.querySelectorAll('canvas')
-  //   if (ele.length > 1) {
-      
-  //     if (ele[0] !== undefined) {
-  //       ele[0].style.display = "none"
-  //     }
-  //   }
-  //   ele.forEach((e) => {
-  //     e.style.borderRadius = "20px"
-  //   })
-    
-  // }, [])
-  
-  
 
 
   return (
     <div id='landing-main' data-section-name={"s-one"}>
-      <div id='effect'>
+      <div id='effect' >
       </div>
       <div className="lcontent">
         <div className="lleft">
@@ -95,13 +55,7 @@ function Landing() {
               <p>Download Brochure</p>
             </button>
             </a>
-            <div className="p-10" style={{ display: "flex", flexDirection: "column", zIndex: 100 }}>
-              {/* <div
-                  className="apply-button"
-                  data-hackathon-slug="aventus-2-0"
-                  data-button-theme="dark"
-              ></div> */}
-            </div>
+            
           </div>
         </div>
         <div className="lright">

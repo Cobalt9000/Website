@@ -22,41 +22,11 @@ export default function About() {
 
     }, [])
 
-    // useEffect(() => {
-    //     const bg = swarmBackground({
-    //       el: document.getElementById('effect'),
-    //       eventsEl: document.getElementById('effect'),
-    //       gpgpuSize: 128,
-    //       color: [0x00a69e, 0x00a69e],
-    //       geometry: 'default'
-    //     })
-        
-    //     bg.setColors([0x00a69e, 0x00ff51])
-    //     bg.three.camera.position.set(0, 0, 250)
-        
-    //     let ele = document.querySelectorAll('canvas')
-    //     if (ele.length > 1) {
-          
-    //       if (ele[0] !== undefined) {
-    //         ele[0].style.display = "none"
-    //       }
-    //     }
-    //     // ele.forEach((e) => {
-    //     //   e.style.borderRadius = "20px"
-    //     // })
-        
-    //   }, [])
-
+  
 
     return (
-        <div className='text-white h-screen s-two' data-section-name={"s-two"} id={"About"}>
-            <div class="lines">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
+        <div className='text-white s-two' data-section-name={"s-two"} id={"About"}>
+            
             <div className="acontent">
                 <div className="aleft glass">
                     <div className="clgabout">
@@ -81,10 +51,12 @@ export default function About() {
             </div>
             <div className="timecount">
                 <div className="t">Time left for awesomeness</div>
-                <div className="days cele glass"><p className='celep'>{time.days}</p><span className='celep'>Days</span></div>
-                <div className="hours cele glass"><p className='celep'>{time.hours}</p><span className='celep'>Hours</span></div>
-                <div className="minutes cele glass"><p className='celep'>{time.minutes}</p><span className='celep'>Minutes</span></div>
-                <div className="seconds cele glass"><p className='celep'>{time.seconds}</p><span className='celep'>Seconds</span></div>
+                <div className='time'>
+                    <div className="days cele glass"><p className='celep'>{time.days}</p><span className='celep'>Days</span></div>
+                    <div className="hours cele glass"><p className='celep'>{time.hours}</p><span className='celep'>Hours</span></div>
+                    <div className="minutes cele glass"><p className='celep'>{time.minutes}</p><span className='celep'>Minutes</span></div>
+                    <div className="seconds cele glass"><p className='celep'>{time.seconds}</p><span className='celep'>Seconds</span></div>
+                </div>
             </div>
         </div>
     )

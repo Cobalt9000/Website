@@ -12,11 +12,10 @@
   }
   
   .sponsors img {
-    height: 180px; /* Adjust the height as needed */
+    height: 150px; /* Adjust the height as needed */
     width: 300px; /* Adjust the width as needed */
-    border-radius: 15%; /* This gives the images rounded edges */
-    object-fit: cover; /* This ensures the images are properly sized and cropped */
-    object-fit: contain;
+    border-radius: 20px; /* This gives the images rounded edges */
+    object-fit: fill; /* This gives the images a square shape */
   }
   
   /* Optional: Add some spacing between the images */
@@ -32,7 +31,13 @@
 
 @media screen and (max-width: 640px) {
     .sponsors .container {
-        padding-left: 1rem;
-        padding-right: 1rem;
+      margin: 0;
+      justify-content: center;
+    }
+    .sponsors img{
+      width: 340px;
+    }
+    .mark{
+      justify-content: center;
     }
 }
