@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./css/mentor style.css";
 
 
-function Mentors() {
+function Judges() {
 
 
   const settings = {
@@ -134,4 +134,4 @@ const data = [
   },
 ];
 
-export default Mentors;
+export default Judges;
