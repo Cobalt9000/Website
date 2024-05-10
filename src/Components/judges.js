@@ -68,7 +68,7 @@ function Judges() {
 const data = [
   {
     name: "Shama Ahlawat",
-    img: "Judge1.png",
+    img: "judge1.png",
     description: "Judge",
     track: "AI & ML",
     linkedin: "https://www.linkedin.com/in/shama-ahlawat-b40a72134/",
@@ -76,7 +76,7 @@ const data = [
   },
   {
     name: "Naman Sinha",
-    img: "Judge2.png",
+    img: "judge2.png",
     description: "Judge",
     track: "AI & ML",
     linkedin: "https://www.linkedin.com/in/naman786sinha/",
@@ -84,7 +84,7 @@ const data = [
   },
   {
     name: "Akanksha Buchke",
-    img: "Judge3.png",
+    img: "judge3.png",
     description: "Judge",
     track: "Web 3.0",
     linkedin: "https://www.linkedin.com/in/akanksha-buchke/",
@@ -92,7 +92,7 @@ const data = [
   },
   {
     name: "Ronak Saif",
-    img: "Judge4.png",
+    img: "judge4.png",
     description: "Judge",
     track: "Web 3.0",
     linkedin: "https://www.linkedin.com/in/ronaksaif/",
@@ -100,7 +100,7 @@ const data = [
   },
   {
     name: "Ashutosh Pandey",
-    img: "Judge5.png",
+    img: "judge5.png",
     description: "Judge",
     track: "Game & AR/VR",
     linkedin: "https://www.linkedin.com/in/ashupdsce/",
@@ -109,7 +109,7 @@ const data = [
   },
   {
     name: "Karan Ganesan",
-    img: "Judge6.png",
+    img: "judge6.png",
     description: "Judge",
     track: "Game & AR/VR",
     linkedin: "https://www.linkedin.com/in/karanganesan/",
@@ -117,7 +117,7 @@ const data = [
   },
   {
     name: "Aditya Dixit",
-    img: "Judge7.png",
+    img: "judge7.png",
     description: "Judge",
     track: "Cyber intelligence ",
     linkedin: "linkedin.com/in/ad17ya",
@@ -125,7 +125,7 @@ const data = [
   },
   {
     name: "Rishabh Lakhotia",
-    img: "Judge8.png",
+    img: "judge8.png",
     description: "Judge",
     track: "Cyber intelligence ",
     linkedin: "https://www.linkedin.com/in/rishabhlakhotia/",
