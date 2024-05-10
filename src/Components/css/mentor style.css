@@ -39,6 +39,30 @@
 .os_bimg{
   background-image: url(../../../public/os_bimg.png);
 }
+.j1_bimg{
+  background-image: url(../../../public/j1.png);
+}
+.j2_bimg{
+  background-image: url(../../../public/j2.png);
+}
+.j3_bimg{
+  background-image: url(../../../public/j3.png);
+}
+.j4_bimg{
+  background-image: url(../../../public/j4.png);
+}
+.j5_bimg{
+  background-image: url(../../../public/j5.png);
+}
+.j6_bimg{
+  background-image: url(../../../public/j6.png);
+}
+.j7_bimg{
+  background-image: url(../../../public/j7.png);
+}
+.j8_bimg{
+  background-image: url(../../../public/j8.png);
+}
 
 @keyframes App-logo-spin {
   from {

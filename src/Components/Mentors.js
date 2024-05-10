@@ -70,7 +70,7 @@ const data = [
     name: "Pratik Kumar Singh",
     img: "mentor1.png",
     description: "Mentor",
-    track: "AI/ML",
+    track: "AI & ML",
     linkedin: "https://www.linkedin.com/in/kitarp29?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     bg: "pb_bimg",
     portfolio: "https://kitarp29.github.io/onlineCV/beckham/"
@@ -79,7 +79,7 @@ const data = [
     name: "Gaurav Sarkar",
     img: "mentor2.png",
     description: "Mentor",
-    track: "AI/ML",
+    track: "AI & ML",
     linkedin: "https://www.linkedin.com/in/gauravsarkar7888?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     bg: "pb_bimg",
     portfolio: "https://medium.com/@gosshhh9"
