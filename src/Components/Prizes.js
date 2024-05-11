@@ -30,7 +30,7 @@ function Prizes() {
                     <br></br>
                     <p className="sponsor-prize-details"> The team with the best solution per track will receive 1-year .xyz domain names 
                     and also the participants will have a chance of getting seed funding and incubation from Derbi Foundation and get a internship opportunity
-                    at Nuevera InfoTech Pvt Ltd. </p>
+                    at Nuevera InfoTech Pvt Ltd and SandLogic. </p>
                 </div>
             </div>
         </section>

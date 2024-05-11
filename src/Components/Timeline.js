@@ -39,7 +39,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
                         <h2><b>Closing of Idea Submissions</b></h2>
-                        <small>10th May</small>
+                        <small>13th May</small>
                         <p>The submission link for the idea submission will be closed and the shortlisting/evaluation of the idea submissions will be begin.</p>
                         <span className='left-container-arrow'></span>
                     </div>
@@ -51,7 +51,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Announcement of Shortlisted teams</b></h2>
-                        <small>13th May</small>
+                        <small>14th May</small>
                         <p>Results to be announced on the website and socialmedia handles of the shortlisted teams for the aventus hackathon</p>
                         <span className='right-container-arrow'></span>
                     </div>
@@ -76,6 +76,7 @@ function Timeline() {
                         <h2><b>Hackthon DAY-1</b></h2>
                         <small>18th May</small>
                         <p>Day 1 - of the event </p>
+                        <p>further detailed timeline of the day 1 can be viewed in the brochure.</p>
                         <span className='right-container-arrow'></span>
                     </div>
                 </div>
@@ -87,6 +88,7 @@ function Timeline() {
                         <h2><b>Hackathon Day-2</b></h2>
                         <small>19th May</small>
                         <p>Results of the hackathon and price distribution.</p>
+                        <p>further detailed timeline of the day 2 can be viewed in the brochure.</p>
                         <span className='left-container-arrow'></span>
                     </div>
                 </div>
