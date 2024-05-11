@@ -120,7 +120,7 @@ const data = [
     img: "Judge7.png",
     description: "Judge",
     track: "Cyber intelligence ",
-    linkedin: "linkedin.com/in/ad17ya",
+    linkedin: "https://www.linkedin.com/in/ad17ya/",
     bg: "j7_bimg"
   },
   {
