@@ -96,7 +96,7 @@ function App() {
     return (
         <>
             <Nav />
-            <Alert message="Join the Discord group for the Q&A sessions and if you have any queries regarding the hackathon." type="warning" />
+            <Alert message="Join the Discord server for the Q&A sessions and for any queries regarding the hackathon." type="warning" />
             <div className="conta">
                 <div>
                     <Landing />
