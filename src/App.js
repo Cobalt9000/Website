@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import FAQ from './Components/FAQ';
 import Footer from './Components/Footer';
 import Landing from './Components/Landing';
@@ -31,10 +31,19 @@ import Timeline from './Components/Timeline.js';
 import ProblemStatement from './Components/Problemstate.js';
 import Map from './Components/map.js';
 import { swarmBackground } from 'threejs-toys'
+import Alert from './Components/Alert.js';
+
 
 
 function App() {
+    const [alert, setAlert] = useState(null);
 
+    const showAlert = (message, type)=>{
+        setAlert({
+            msg: message,
+            type: type
+        })
+    }
     const images = [
         image1,
         image2,
@@ -53,6 +62,8 @@ function App() {
         image15,
         image16,
     ];
+
+    
 
 
     React.useEffect(() => {
@@ -85,6 +96,7 @@ function App() {
     return (
         <>
             <Nav />
+            <Alert message="Join the Discord group for the Q&A sessions and if you have any queries regarding the hackathon." type="warning" />
             <div className="conta">
                 <div>
                     <Landing />

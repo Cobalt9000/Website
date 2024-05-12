@@ -1,0 +1,45 @@
+/* DismissibleAlert.css */
+.dismissible-alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .dismissible-alert.show {
+    opacity: 1;
+  }
+  
+  .alert-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Example styles for different types */
+  .dismissible-alert.success {
+    background-color: #28a745;
+  }
+  
+  .dismissible-alert.error {
+    background-color: #dc3545;
+  }
+  
+  .dismissible-alert.warning {
+    background-color: grey;
+    color: #333;
+  }
