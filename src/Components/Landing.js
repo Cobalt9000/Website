@@ -63,15 +63,19 @@ function Landing() {
           <div className="msg">Connect with us on our socials</div>
           <div className="socialmediabtn">
             <a href="https://www.instagram.com/hackaventus/" target="_blank" rel="noopener noreferrer">
-              <button className="sbtn"><FontAwesomeIcon icon={brands('instagram')} className={"fa-3x"} /></button>
+              <button className="sbtn"><FontAwesomeIcon icon={brands('instagram')} className={"fa-4x"} /></button>
             </a>
 
             <a href="https://www.linkedin.com/showcase/aventus-dsce/" target="_blank" rel="noopener noreferrer">
-              <button className="sbtn"><FontAwesomeIcon icon={brands('linkedin')} className={"fa-3x"} /></button>
+              <button className="sbtn"><FontAwesomeIcon icon={brands('linkedin')} className={"fa-4x"} /></button>
             </a>
 
             <a href="https://discord.com/invite/Mbb9bkdsCj" target="_blank" rel="noopener noreferrer">
-              <button className="sbtn"><FontAwesomeIcon icon={brands('discord')} className={"fa-3x"} /></button>
+              <button className="sbtn"><FontAwesomeIcon icon={brands('discord')} className={"fa-4x"} /></button>
+            </a>
+
+            <a href="https://t.me/+SebssWzmQMVmZGI1" target="_blank" rel="noopener noreferrer">
+              <button className="sbtn"><FontAwesomeIcon icon={brands('telegram')} className={"fa-4x"} /></button>
             </a>
           </div>
         </div>
