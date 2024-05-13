@@ -25,7 +25,7 @@
   .close-btn {
     background: none;
     border: none;
-    color: #fff;
+    color: black;
     font-size: 16px;
     cursor: pointer;
   }
@@ -40,6 +40,6 @@
   }
   
   .dismissible-alert.warning {
-    background-color: grey;
+    background-color: #28a745;
     color: #333;
   }
