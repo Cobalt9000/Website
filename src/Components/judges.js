@@ -52,7 +52,7 @@ function Judges() {
                 <p className="text-xl font-semibold text-center">{d.name}</p>
                 <p className="text-center">{d.description}</p>
                 <p className="text-center">{d.track}</p>
-                <button className="bg-red-800 text-black text-lg px-6 py-1 rounded-xl">
+                <button className="bg-red-800 text-red-50 text-lg px-6 py-1 rounded-xl">
                   <a href={d.linkedin} target="_blank" rel="noopener noreferrer">linkedin profile</a>
                 </button>
                 
