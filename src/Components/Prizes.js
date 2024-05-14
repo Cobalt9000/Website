@@ -9,19 +9,15 @@ function Prizes() {
                 <div className="prize-list">
                     <div className="prize-item">
                         <h3 className="prize-title">Grand Prize:</h3>
-                        <p className="prize-amount">₹ 30,000</p>
+                        <p className="prize-amount">₹ 30,000 worth prizes</p>
                     </div>
                     <div className="prize-item">
                         <h3 className="prize-title">Runners up:</h3>
-                        <p className="prize-amount">₹ 20,000 </p>
-                    </div>
-                    <div className="prize-item">
-                        <h3 className="prize-title">2nd Runners up:</h3>
-                        <p className="prize-amount">₹ 10,000 </p>
+                        <p className="prize-amount">₹ 20,000 worth prizes</p>
                     </div>
                     <div className="prize-item">
                         <h3 className="prize-title">Track prizes:</h3>
-                        <p className="prize-amount">₹ 10,000 </p>
+                        <p className="prize-amount">₹ 10,000 for each track</p>
                     </div>
                 </div>
                 <br></br>
@@ -31,6 +27,10 @@ function Prizes() {
                     <p className="sponsor-prize-details"> The team with the best solution per track will receive 1-year .xyz domain names 
                     and also the participants will have a chance of getting seed funding and incubation from Derbi Foundation and get a internship opportunity
                     at Nuevera InfoTech Pvt Ltd and SandLogic. </p>
+                    <br></br>
+                    <h3 className="sponsor-prize-title">Note:</h3>
+                    <p className="sponsor-prize-details"> Grand prize: ₹ 25k Cash prize and ₹ 5k worth additional prizes</p>
+                    <p className="sponsor-prize-details"> Runners up prize: ₹ 15k Cash prize and ₹ 5k worth additional prizes</p>
                 </div>
             </div>
         </section>
