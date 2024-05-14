@@ -51,7 +51,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Announcement of Shortlisted teams</b></h2>
-                        <small>14th May</small>
+                        <small>15th May</small>
                         <p>Results to be announced on the website and socialmedia handles of the shortlisted teams for the aventus hackathon</p>
                         <span className='right-container-arrow'></span>
                     </div>

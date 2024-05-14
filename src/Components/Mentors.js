@@ -50,6 +50,7 @@ function Mentors() {
               </div>
               <div className="flex flex-col items-center  text-teal-600 justify-center gap-4 p-4">
                 <p className="text-xl font-semibold text-center">{d.name}</p>
+                <p className="text-center">{d.team}</p>
                 <p className="text-center">{d.description}</p>
                 <p className="text-center">{d.track}</p>
                 <button className="bg-teal-600 text-black text-lg px-6 py-1 rounded-xl">
@@ -67,11 +68,12 @@ function Mentors() {
 
 const data = [
   {
-    name: "Pratik Kumar Singh",
+    name: "Prakhar",
     img: "mentor1.png",
     description: "Mentor",
     track: "AI & ML",
-    linkedin: "https://www.linkedin.com/in/kitarp29?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    team: "PointBlank",
+    linkedin: "https://www.linkedin.com/in/prakhar-tibrewal?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsBzLdH7NRYyzEfmcFPHz2Q%3D%3D",
     bg: "pb_bimg",
     portfolio: "https://kitarp29.github.io/onlineCV/beckham/"
   },
@@ -80,6 +82,7 @@ const data = [
     img: "mentor2.png",
     description: "Mentor",
     track: "AI & ML",
+    team: "PointBlank",
     linkedin: "https://www.linkedin.com/in/gauravsarkar7888?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     bg: "pb_bimg",
     portfolio: "https://medium.com/@gosshhh9"
@@ -88,6 +91,7 @@ const data = [
     name: "Mithun S",
     img: "mentor3.png",
     description: "Mentor",
+    team: "OSCode",
     track: "Web 3.0",
     linkedin: "https://www.linkedin.com/in/i-am-mithun/",
     bg: "os_bimg"
@@ -96,6 +100,7 @@ const data = [
     name: "Aayush Kumar",
     img: "mentor4.png",
     description: "Mentor",
+    team: "PointBlank",
     track: "Web 3.0",
     linkedin: "https://www.linkedin.com/in/aayush-kumar-in?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     bg: "pb_bimg"
@@ -105,6 +110,7 @@ const data = [
     img: "mentor5.png",
     description: "Mentor",
     track: "Game & AR/VR",
+    team: "PointBlank",
     linkedin: "https://www.linkedin.com/in/anukul-anand?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     bg: "pb_bimg"
   },
@@ -113,6 +119,7 @@ const data = [
     img: "mentor6.png",
     description: "Mentor",
     track: "Game & AR/VR",
+    team: "PointBlank",
     linkedin: "https://www.linkedin.com/in/ankit-kumar-singh-b23789191?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     bg: "pb_bimg",
     portfolio: "https://ankitportfolio.social/"
@@ -121,6 +128,7 @@ const data = [
     name: "Abhay Singh",
     img: "mentor7.png",
     description: "Mentor",
+    team: "OSCode",
     track: "Cyber intelligence ",
     linkedin: "https://www.linkedin.com/in/abhay-singh-a64b89192/",
     bg: "os_bimg"
@@ -129,6 +137,7 @@ const data = [
     name: "Sreeniketh Madgula",
     img: "mentor8.png",
     description: "Mentor",
+    team: "PointBlank",
     track: "Cyber intelligence ",
     linkedin: "https://www.linkedin.com/in/sreenikethmadgula?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     bg: "pb_bimg",

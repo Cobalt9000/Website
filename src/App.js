@@ -32,6 +32,7 @@ import ProblemStatement from './Components/Problemstate.js';
 import Map from './Components/map.js';
 import { swarmBackground } from 'threejs-toys'
 import Alert from './Components/Alert.js';
+import CommunityColab from './Components/CommunityColab.js';
 
 
 
@@ -120,6 +121,9 @@ function App() {
                 >
                 <div>
                     <Sponsors />
+                </div>
+                <div>
+                    <CommunityColab />
                 </div>
                 <div>
                     <Timeline />
