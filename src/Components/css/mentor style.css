@@ -33,6 +33,9 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.aventus_bimg{
+  background-image: url(../../../public/aventus.png);
+}
 .pb_bimg{
   background-image: url(../../../public/pb_bimg.png);
 }

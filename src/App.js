@@ -33,6 +33,7 @@ import Map from './Components/map.js';
 import { swarmBackground } from 'threejs-toys'
 import Alert from './Components/Alert.js';
 import CommunityColab from './Components/CommunityColab.js';
+import IndividualSponsor from './Components/Individualsponsors.js';
 
 
 
@@ -97,7 +98,7 @@ function App() {
     return (
         <>
             <Nav />
-            <Alert message="Join our Discord for Q&A and hackathon queries. Also, you can reach us on Telegram." type="warning" />
+            <Alert message="Join our Discord for Q&A and hackathon queries. Also, you can reach us on Telegram. (Brochure has been updated have a look at it.)" type="warning" />
             <div className="conta">
                 <div>
                     <Landing />
@@ -125,6 +126,7 @@ function App() {
                 <div>
                     <CommunityColab />
                 </div>
+                
                 <div>
                     <Timeline />
                 </div>    
@@ -152,6 +154,23 @@ function App() {
                 
                 <div style={{ padding: "20px" }}>
                     <Glimpse images={images} />
+                </div>
+
+                <div className="individual"
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                    }}
+                >
+                </div>
+
+                <div className="individual">
+                    <h1>Individual Sponsors</h1>
+                </div>
+                
+                <div style={{ padding: "20px" }}>
+                    <IndividualSponsor images={images} />
                 </div>
 
                 <div className="judges"
