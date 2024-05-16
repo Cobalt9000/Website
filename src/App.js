@@ -98,7 +98,7 @@ function App() {
     return (
         <>
             <Nav />
-            <Alert message="Join our Discord for Q&A and hackathon queries. Also, you can reach us on Telegram. (Brochure has been updated have a look at it.)" type="warning" />
+            <Alert message="Final Teams have been selected. We request the shortlisted teams to RSVP on the devfolio website." type="warning" />
             <div className="conta">
                 <div>
                     <Landing />
