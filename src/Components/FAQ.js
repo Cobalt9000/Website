@@ -9,6 +9,25 @@ function FAQ() {
           <p className="mt-4 mb-text-gray-300"></p>
           <div className="space-y-4">
             <details className="w-full border rounded-lg">
+              <summary className="px-4 py-6 focus:outline-none">Can we go out of the campus during the event and come back?</summary>
+              <div className='answer'>
+              <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-300"><strong>No</strong>, the participants will not be allowed to go out of the campus during the hackathon. 
+              The Food and accomodation for the participants will be provided in campus.</p>
+              </div>
+            </details>
+            <details className="w-full border rounded-lg">
+              <summary className="px-4 py-6 focus:outline-none">Timings of the hackathon from the start to the end?</summary>
+              <div className='answer'>
+              <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-300">The Updated Timeline is in the brochure. Please do check it out.</p>
+              </div>
+            </details>
+            <details className="w-full border rounded-lg">
+              <summary className="px-4 py-6 focus:outline-none">Who should we to contact to? if we have and queries.</summary>
+              <div className='answer'>
+              <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-300">You can contact us on <strong>one@hackaventus.com</strong> or either Discord or Telegram, depending on your preference.</p>
+              </div>
+            </details>
+            <details className="w-full border rounded-lg">
               <summary className="px-4 py-6 focus:outline-none">Who  is  eligible  to  participate  in  Aventus?</summary>
               <div className='answer'>
               <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-300">Aventus Hackathon is open to all college students. Team sizes can range from 2 to 4 members.</p>
