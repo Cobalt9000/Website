@@ -71,8 +71,8 @@ function App() {
 
     React.useEffect(() => {
         const container = document.getElementById('effect');
-        // container.style.width = '100vw'; // Set the width to 100% of the viewport width
-        // container.style.height = '100vh'; // Set the height to 100% of the viewport height
+        container.style.width = '100vw'; // Set the width to 100% of the viewport width
+        container.style.height = '100vh'; // Set the height to 100% of the viewport height
 
         const bg = swarmBackground({
             el: container,
