@@ -77,7 +77,7 @@ const data = [
   {
     name: "Nandi Dharma Kishore",
     img: "GJ2.png",
-    Company: "",
+    Company: "CEO at Ashtaksha Labs",
     description: "Grand Jury",
     linkedin: "https://www.linkedin.com/in/nandi-dharma-kishore-hn-3a56b758/",
     bg: "",
@@ -86,7 +86,7 @@ const data = [
     name: "Sai Sundarakrishna",
     img: "GJ3.png",
     description: "Grand Jury",
-    Company: "CEO of DeepmAGIc",
+    Company: "CEO at DeepmAGIc",
     linkedin: "https://www.linkedin.com/in/sai-sundarakrishna-7b87625/",
     bg: ""
   },
@@ -94,7 +94,7 @@ const data = [
     name: "Satya Narayana B V",
     img: "GJ4.png",
     description: "Grand Jury",
-    Company: "CEO of Derbi Foundation",
+    Company: "CEO at Derbi Foundation",
     linkedin: "https://www.linkedin.com/in/sathyanarayanabv/?original_referer=https%3A%2F%2Fwww%2Ebing%2Ecom%2F&originalSubdomain=in",
     bg: ""
   },
@@ -102,7 +102,7 @@ const data = [
     name: "Hemanth Niranjan",
     img: "GJ5.png",
     description: "Grand Jury",
-    Company: "CEO of Neuvera Infotech Pvt Ltd",
+    Company: "CEO at Neuvera Infotech Pvt Ltd",
     linkedin: "https://www.linkedin.com/in/sai-sundarakrishna-7b87625/",
     bg: ""
   },
