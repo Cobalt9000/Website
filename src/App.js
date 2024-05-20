@@ -99,7 +99,7 @@ function App() {
     return (
         <>
             <Nav />
-            <Alert message="Final Teams have been selected. We request the shortlisted teams to RSVP on the devfolio website." type="warning" />
+            <Alert message="Thank you to all participants for making AVENTUS 2.0 an incredible success!" type="warning" />
             <div className="conta">
                 <div>
                     <Landing />
