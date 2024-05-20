@@ -49,13 +49,14 @@ export default function About() {
                     <img src="aventus.gif" alt="" className='' />
                 </div>
             </div>
+            {/* Set the time as the following instead of 0 for days time.days, for hours time.hours, for minutes time.minutes, and for seconds time.seconds. */}
             <div className="timecount">
                 <div className="t">Time left for awesomeness</div>
                 <div className='time'>
-                    <div className="days cele glass"><p className='celep'>{time.days}</p><span className='celep'>Days</span></div>
-                    <div className="hours cele glass"><p className='celep'>{time.hours}</p><span className='celep'>Hours</span></div>
-                    <div className="minutes cele glass"><p className='celep'>{time.minutes}</p><span className='celep'>Minutes</span></div>
-                    <div className="seconds cele glass"><p className='celep'>{time.seconds}</p><span className='celep'>Seconds</span></div>
+                    <div className="days cele glass"><p className='celep'>{0}</p><span className='celep'>Days</span></div>
+                    <div className="hours cele glass"><p className='celep'>{0}</p><span className='celep'>Hours</span></div>
+                    <div className="minutes cele glass"><p className='celep'>{0}</p><span className='celep'>Minutes</span></div>
+                    <div className="seconds cele glass"><p className='celep'>{0}</p><span className='celep'>Seconds</span></div>
                 </div>
             </div>
         </div>
