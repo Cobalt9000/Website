@@ -24,7 +24,7 @@
   }
 
   .mentors h1 {
-    color: #fff;
+    color: teal;
     font-size:2rem;
     text-align: center;
     margin-top: 200px;
@@ -33,7 +33,15 @@
 
 .judges h1 {
   margin-top: 200px;
-  color: #fff;
+  color: red;
+  font-size:2rem;
+  text-align: center;
+
+}
+
+.GrandJury h1 {
+  margin-top: 200px;
+  color: gold;
   font-size:2rem;
   text-align: center;
 

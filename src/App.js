@@ -34,6 +34,7 @@ import { swarmBackground } from 'threejs-toys'
 import Alert from './Components/Alert.js';
 import CommunityColab from './Components/CommunityColab.js';
 import IndividualSponsor from './Components/Individualsponsors.js';
+import GrandJury from './Components/GrandJury.js';
 
 
 
@@ -173,7 +174,24 @@ function App() {
                     <IndividualSponsor images={images} />
                 </div>
 
-                <div className="judges"
+                <div className="GrandJury"
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                    }}
+                >
+                </div>
+
+                <div className='GrandJury'>
+                    <h1>Grand Jury</h1>
+                </div>
+                
+                <div style={{ padding: "20px" }}>
+                    <GrandJury images={images} />
+                </div>
+
+                <div className="GrandJury"
                     style={{
                         display: 'flex',
                         flexDirection: 'column',
