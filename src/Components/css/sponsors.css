@@ -16,7 +16,6 @@
     width: 300px; /* Adjust the width as needed */
     border-radius: 20px; /* This gives the images rounded edges */
     object-fit: fill; /* This gives the images a square shape */
-    gap: 100px;
   }
   
   /* Optional: Add some spacing between the images */

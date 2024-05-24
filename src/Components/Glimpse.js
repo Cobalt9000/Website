@@ -19,7 +19,7 @@ const Glimpse = ({ images }) => {
   };
 
   return (
-    <div className="image-slider">
+    <div className="image-slider" id={"Winners"}>
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>

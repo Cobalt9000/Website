@@ -52,7 +52,7 @@ function Landing() {
             
             <a href='https://axllowusnmeq.objectstorage.ap-hyderabad-1.oci.customer-oci.com/p/nu0piCZC4dfATp3DBqPbdKSX2cR456gYOoPK1ZjXNtRfoq7hDX0l5-PbB9V5dThd/n/axllowusnmeq/b/Aventus/o/Aventus%20Brochure.pdf'>
               <button className="timeline">
-              <p>Download Brochure</p>
+              <p>Download Updated Brochure</p>
             </button>
             </a>
             
