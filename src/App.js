@@ -77,7 +77,7 @@ function App() {
     return (
         <>
             <Nav />
-            <Alert message="Thank you to all participants for making AVENTUS 2.0 an incredible success!" type="warning" />
+            <Alert message="Thanks to all participants for making AVENTUS 2.0 an incredible success!" type="warning" />
             <div className="conta">
                 <div>
                     <Landing />
