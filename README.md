@@ -7,7 +7,7 @@ Official Repository for Website hosted for Aventus'24 Hackathon.
 - CSS
 - TailwindCSS
 
-The website is hosted on Netlify. [Link](https://aventus2024.vercel.app/)
+The website is hosted on Vercel. [Link](https://aventus2024.vercel.app/)
 
 ## Build and Deploy
 
